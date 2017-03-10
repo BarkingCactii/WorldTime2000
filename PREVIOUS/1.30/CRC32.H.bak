@@ -1,0 +1,44 @@
+/*
+ *   crc32.h
+ */
+
+#ifndef _CRC32_H
+#define _CRC32_H
+
+#include  <time.h>
+
+#define   CR                  0x0d
+#define   LF                  0x0a
+
+#define   NUM_SEARCH_CHARS    4
+#define   MAX_CAT_PASSWORD    15
+typedef unsigned  long ulong;
+
+typedef struct
+{
+     char      searchSpec[NUM_SEARCH_CHARS];
+     ulong     crc;
+     ulong     licenseCrc;
+     time_t    timeCrcStamped;
+     time_t    timeDiskMade;
+     char      catPassword[MAX_CAT_PASSWORD + 1];
+} CrcData;
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+unsigned long crc32(char *s);
+int CrcProgram ( char * );
+unsigned long GetSerial ();
+int CheckCatPassword ( char * );
+int NoCatPassword ();
+unsigned long GetLicenseCrc ();
+unsigned long CrcFile ( char * );
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
+

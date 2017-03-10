@@ -1,0 +1,1286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ca2c3447-aa39-4f2f-9c64-cf68a2d6f2c6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f8f3e0bf-a9bb-4e82-ad2d-5e9ef3b55015}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{432ab9f6-c23c-4ee5-8aab-308baf0bd7fb}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Add.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alarms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Locations\Bstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="delete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayLocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAlarmDetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAlarmMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAlarms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLocationDetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUpdater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Home.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Legend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Locations\Location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Locations\Member.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefDisplayPropPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Preferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefPropSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefSoundsPropPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefTemplatePropPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefTimePropPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Registry\RegData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Registry\RegistryKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SunTimes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tfxdatatip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TRAYICON.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="whatif.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldTime2000.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldTime2000View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Register\REGISTER.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BUILD.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Details.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefMainPropPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Str.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WorldTime2000.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Add.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alarms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Locations\Bstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="delete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayLocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAlarmDetails.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAlarmMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAlarms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLocationDetails.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUpdater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Legend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Locations\Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Locations\Member.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefDisplayPropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Preferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefPropSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefSoundsPropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefTemplatePropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefTimePropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Registry\RegData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Registry\RegistryKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tfxdatatip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TRAYICON.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="whatif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldTime2000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldTime2000View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Details.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefMainPropPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STR.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\add.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alarm.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\alarm1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alarmoff.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\alarms.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\b.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B8.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="htm\backgroud.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ani\background.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="htm\background.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="htm\background.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\baseicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Book.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\clock.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\delete.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\display.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\display.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\doc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\docs.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dstoff.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dston.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dston1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dston2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dston3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Earth.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ani\file_add.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\file_ala.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ani\file_mod.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\fonts.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sphere\frame9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\help.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\home.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\home.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\homelocation.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\location.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\location_small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\locations.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\locations.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\member.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Member_Small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\modify.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pencil.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Planet.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\preferen.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\preferences.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\preferences.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Reach.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ref.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Sandstone.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\skins.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="snap.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="htm\snap.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="htm\SNAP2.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="snap2.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sun.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toaster.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar_cold.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar_hot.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tray.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tray1.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="htm\tray1.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\tray1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="htm\TRAY2.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tray2.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\updater.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\whatif.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\world3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\worldtime.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="worldtime.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="worldtime.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\worldtime.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\WorldTime2000.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T1.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T2.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T3.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T4.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T5.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T6.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T8.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T9.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T10.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T12.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T13.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T14.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T15.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T16.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T17.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T18.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T19.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T20.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T21.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T22.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T23.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T24.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T25.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T26.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T27.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T28.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T29.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T30.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T32.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T33.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T34.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T35.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T36.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T38.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T39.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T40.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T41.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T44.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T45.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T47.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\T48.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Backgrounds\WorldTime2000.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CD Layout\CD Cover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CD Layout\WorldTime2000.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Help 2.0\HTML\back.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Help 2.0\HTML\button.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Help 2.0\HTML\Images\image5_0.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Help 2.0\HTML\Images\image5_1.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Help 2.0\HTML\Images\image5_2.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HTMLHELP\TRAY1.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HTMLHELP\TRAY2.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Install\WorldTime2000.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\ANI57.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\BANNER.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\BANNER2.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\ICON.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\RED81.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\Skinned_wt2k.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\CNET_com - Downloads - Submissions - Submitting a new program or\B.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\CNET_com - Downloads - Submissions - Submitting a new program or\Cnet.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\CNET_com - Downloads - Submissions - Submitting a new program or\cnet-10000-title-sm.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MISC\CNET_com - Downloads - Submissions - Submitting a new program or\SMRB.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time5.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time7.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time8.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time9.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time10.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time11.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time12.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time13.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\time14.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\whatif1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\alarm2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dston4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\icon10.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\idr_main 32x32.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\idr_main.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Large.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\4STAR.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\87485-2EC01_88x120.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\advertisement.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\av_sealban.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\CLEAR(1).GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\CLEAR.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\click_here.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\dotclear(1).gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\dotclear(2).gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\dotclear(3).gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\dotclear(4).gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\DOTCLEAR.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\EMAIL2.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\HLINE454.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\LEFT_END.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\NS.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\PRINT2.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\PRPLDOT.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\PRPLDOTS.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\right_end.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\SBAN1.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\SBUTATO.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\SBUTDNO.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\SBUTSSE2.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\SEPARATE.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\SPACER.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\TILE5.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\TINYZD2.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\TRIG2.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\zdlogo_sm.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\ZDLOGO5.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\Weather World Calculations_files\BANNER3.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\Weather World Calculations_files\SKY2.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\3.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\4.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\A1.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\A3.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\A4.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\barrablugiu.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\barrarossagiu.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\FBM.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\HOT.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\MONDACOM.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\NEW.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\NULL.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\ONDA.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\PREVIEW.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\SPLIT.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\URL.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\ZIP.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WorldTime2000\new-win98-1_files\site=volftp&amp;spacedesc=vflistafile&amp;size=468x60&amp;pp=topc_files\SPINACI.GIF">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WorldTime2000.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Archives\OldVersion.exe" />
+    <None Include="Archives\WT001.ZIP" />
+    <None Include="Archives\WT02.ZIP" />
+    <None Include="Archives\WT2K-2B1.EXE" />
+    <None Include="Archives\WT2K-2B2.EXE" />
+    <None Include="Archives\WT2K-2B3.EXE" />
+    <None Include="Archives\WT2K-100.EXE" />
+    <None Include="Archives\WT2K-110.EXE" />
+    <None Include="Archives\WT2K-120.EXE" />
+    <None Include="Archives\WT2K130B.EXE" />
+    <None Include="Archives\WT2K-140.EXE" />
+    <None Include="Archives\WT2K-142.EXE" />
+    <None Include="Archives\WT2K-143.ZIP" />
+    <None Include="Archives\WT2K-145.EXE" />
+    <None Include="Archives\wt2k-145a.exe" />
+    <None Include="Archives\wt2k-145b.exe" />
+    <None Include="Archives\WT2K-200.EXE" />
+    <None Include="Archives\WT2K-202.EXE" />
+    <None Include="Archives\WT2K-210.EXE" />
+    <None Include="Archives\wt2k-250B1.exe" />
+    <None Include="Archives\wt2k-250B2.exe" />
+    <None Include="Archives\WT2K-260.EXE" />
+    <None Include="Archives\WT2K-261.EXE" />
+    <None Include="Archives\WT2K-FIX.ZIP" />
+    <None Include="Archives\WT05.ZIP" />
+    <None Include="Archives\WT06.ZIP" />
+    <None Include="Archives\WT061.ZIP" />
+    <None Include="Backgrounds\locations_WorkInProgress.wt2000" />
+    <None Include="Backgrounds\Thumbs.db" />
+    <None Include="CD Layout\AUTORUN.INF" />
+    <None Include="CD Layout\backup.nri" />
+    <None Include="CD Layout\CD Cover.pub" />
+    <None Include="CD Layout\nero.nri" />
+    <None Include="Cracks\PC_WT2K1.ZIP" />
+    <None Include="Cracks\PC_WT2KG.ZIP" />
+    <None Include="Cracks\PHS-WT14.ZIP" />
+    <None Include="Cracks\SODWT01.ZIP" />
+    <None Include="Cracks\TNO-WT2K.ZIP" />
+    <None Include="Cracks\TX-WT142.ZIP" />
+    <None Include="Cracks\TX-WTKG.ZIP" />
+    <None Include="Cracks\TX-WTKG2.ZIP" />
+    <None Include="Help 2.0\~$rldTime20002.doc" />
+    <None Include="Help 2.0\Glossary.doc" />
+    <None Include="Help 2.0\Thumbs.db" />
+    <None Include="Help 2.0\WorldTime2000.d2h" />
+    <None Include="Help 2.0\WorldTime2000.doc" />
+    <None Include="Help 2.0\WorldTime20002.doc" />
+    <None Include="Help 2.0\HTML\_.htm" />
+    <None Include="Help 2.0\HTML\20002004jeffssoftwarecom.htm" />
+    <None Include="Help 2.0\HTML\20002004jeffssoftwarecom1.htm" />
+    <None Include="Help 2.0\HTML\addlocationstothedisplay.htm" />
+    <None Include="Help 2.0\HTML\addlocationtodisplay.htm" />
+    <None Include="Help 2.0\HTML\addlocationtodisplay1.htm" />
+    <None Include="Help 2.0\HTML\addtolocationslist.htm" />
+    <None Include="Help 2.0\HTML\addtolocationslist1.htm" />
+    <None Include="Help 2.0\HTML\alarms.htm" />
+    <None Include="Help 2.0\HTML\beta3fixesandadditions.htm" />
+    <None Include="Help 2.0\HTML\C1H_HTML.css" />
+    <None Include="Help 2.0\HTML\changingcolors.htm" />
+    <None Include="Help 2.0\HTML\changingcolors1.htm" />
+    <None Include="Help 2.0\HTML\changingcolors2.htm" />
+    <None Include="Help 2.0\HTML\changingdisplayoptions.htm" />
+    <None Include="Help 2.0\HTML\changingfonts.htm" />
+    <None Include="Help 2.0\HTML\changingfonts1.htm" />
+    <None Include="Help 2.0\HTML\changingfonts2.htm" />
+    <None Include="Help 2.0\HTML\changingsounds.htm" />
+    <None Include="Help 2.0\HTML\changingsounds1.htm" />
+    <None Include="Help 2.0\HTML\changingsounds2.htm" />
+    <None Include="Help 2.0\HTML\changingthebackground.htm" />
+    <None Include="Help 2.0\HTML\changingwallpapers.htm" />
+    <None Include="Help 2.0\HTML\changingwallpapers1.htm" />
+    <None Include="Help 2.0\HTML\changingwallpapers2.htm" />
+    <None Include="Help 2.0\HTML\chapter1.htm" />
+    <None Include="Help 2.0\HTML\cominginfutureversions.htm" />
+    <None Include="Help 2.0\HTML\commands.htm" />
+    <None Include="Help 2.0\HTML\commands1.htm" />
+    <None Include="Help 2.0\HTML\copyright20002004jeffssoftwarecom.htm" />
+    <None Include="Help 2.0\HTML\customizingworldtime2000.htm" />
+    <None Include="Help 2.0\HTML\default.htm" />
+    <None Include="Help 2.0\HTML\deletelocation.htm" />
+    <None Include="Help 2.0\HTML\deletingalocation.htm" />
+    <None Include="Help 2.0\HTML\deletingalocation1.htm" />
+    <None Include="Help 2.0\HTML\DocToHelp.js" />
+    <None Include="Help 2.0\HTML\features.htm" />
+    <None Include="Help 2.0\HTML\features1.htm" />
+    <None Include="Help 2.0\HTML\features2.htm" />
+    <None Include="Help 2.0\HTML\features4.htm" />
+    <None Include="Help 2.0\HTML\features5.htm" />
+    <None Include="Help 2.0\HTML\features6.htm" />
+    <None Include="Help 2.0\HTML\features7.htm" />
+    <None Include="Help 2.0\HTML\features8.htm" />
+    <None Include="Help 2.0\HTML\fonts.htm" />
+    <None Include="Help 2.0\HTML\glossaryofterms.htm" />
+    <None Include="Help 2.0\HTML\hotkeys.htm" />
+    <None Include="Help 2.0\HTML\ifyoufindanybugsomissionsorhaveanycommentsonthisdocumentatio.htm" />
+    <None Include="Help 2.0\HTML\introduction.htm" />
+    <None Include="Help 2.0\HTML\introductional.htm" />
+    <None Include="Help 2.0\HTML\license.htm" />
+    <None Include="Help 2.0\HTML\licenseagreement.htm" />
+    <None Include="Help 2.0\HTML\mainfeatures.htm" />
+    <None Include="Help 2.0\HTML\modifyingalocation.htm" />
+    <None Include="Help 2.0\HTML\modifyingalocation1.htm" />
+    <None Include="Help 2.0\HTML\modifylocation.htm" />
+    <None Include="Help 2.0\HTML\moreinformation.htm" />
+    <None Include="Help 2.0\HTML\movinglocations.htm" />
+    <None Include="Help 2.0\HTML\movinglocations1.htm" />
+    <None Include="Help 2.0\HTML\orderingworldtime2000.htm" />
+    <None Include="Help 2.0\HTML\orderworldtime2000.htm" />
+    <None Include="Help 2.0\HTML\otherdisplaypreferences.htm" />
+    <None Include="Help 2.0\HTML\overview.htm" />
+    <None Include="Help 2.0\HTML\overview1.htm" />
+    <None Include="Help 2.0\HTML\overview2.htm" />
+    <None Include="Help 2.0\HTML\paypal.htm" />
+    <None Include="Help 2.0\HTML\performingactions.htm" />
+    <None Include="Help 2.0\HTML\preferencesdialogoptions.htm" />
+    <None Include="Help 2.0\HTML\purchasingwithpaypal.htm" />
+    <None Include="Help 2.0\HTML\purchasingwithregnow.htm" />
+    <None Include="Help 2.0\HTML\quickstart.htm" />
+    <None Include="Help 2.0\HTML\readthisfirst.htm" />
+    <None Include="Help 2.0\HTML\regnow.htm" />
+    <None Include="Help 2.0\HTML\release200.htm" />
+    <None Include="Help 2.0\HTML\release202.htm" />
+    <None Include="Help 2.0\HTML\release210.htm" />
+    <None Include="Help 2.0\HTML\release250.htm" />
+    <None Include="Help 2.0\HTML\release260.htm" />
+    <None Include="Help 2.0\HTML\release261.htm" />
+    <None Include="Help 2.0\HTML\release300.htm" />
+    <None Include="Help 2.0\HTML\resetalarm.htm" />
+    <None Include="Help 2.0\HTML\resetalarm1.htm" />
+    <None Include="Help 2.0\HTML\respondingtoanalarm.htm" />
+    <None Include="Help 2.0\HTML\setclearalarm.htm" />
+    <None Include="Help 2.0\HTML\setclearalarm1.htm" />
+    <None Include="Help 2.0\HTML\sethomereference.htm" />
+    <None Include="Help 2.0\HTML\sethomereference1.htm" />
+    <None Include="Help 2.0\HTML\settinganalarm.htm" />
+    <None Include="Help 2.0\HTML\settinghome.htm" />
+    <None Include="Help 2.0\HTML\settingyourtimezone.htm" />
+    <None Include="Help 2.0\HTML\skins.htm" />
+    <None Include="Help 2.0\HTML\statusiconmeaning.htm" />
+    <None Include="Help 2.0\HTML\support.htm" />
+    <None Include="Help 2.0\HTML\supportjeffssoftwarecom.htm" />
+    <None Include="Help 2.0\HTML\thedisplay.htm" />
+    <None Include="Help 2.0\HTML\thedisplay1.htm" />
+    <None Include="Help 2.0\HTML\thelocationsdatabase.htm" />
+    <None Include="Help 2.0\HTML\thelocationslist.htm" />
+    <None Include="Help 2.0\HTML\thespinningsphere.htm" />
+    <None Include="Help 2.0\HTML\thesystemtray.htm" />
+    <None Include="Help 2.0\HTML\thesystemtray1.htm" />
+    <None Include="Help 2.0\HTML\thesystemtray2.htm" />
+    <None Include="Help 2.0\HTML\TX_74.htm" />
+    <None Include="Help 2.0\HTML\TX_81.htm" />
+    <None Include="Help 2.0\HTML\TX_90.htm" />
+    <None Include="Help 2.0\HTML\TX_93.htm" />
+    <None Include="Help 2.0\HTML\usingworldtime2000.htm" />
+    <None Include="Help 2.0\HTML\usingworldtime20001.htm" />
+    <None Include="Help 2.0\HTML\versionhistory.htm" />
+    <None Include="Help 2.0\HTML\welcometoworldtime2000helpdocumentation.htm" />
+    <None Include="Help 2.0\HTML\whatifthetimewas.htm" />
+    <None Include="Help 2.0\HTML\whatifthetimewas1.htm" />
+    <None Include="Help 2.0\HTML\whatsnew.htm" />
+    <None Include="Help 2.0\HTML\whatsnew1.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinrelease200.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinrelease202.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinrelease210.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinrelease250.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinrelease260.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinrelease261.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinrelease300.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinthisrelease.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinthisrelease1.htm" />
+    <None Include="Help 2.0\HTML\whatsnewinversion30.htm" />
+    <None Include="Help 2.0\HTML\whyregister.htm" />
+    <None Include="Help 2.0\HTML\WorldTime2000.css" />
+    <None Include="Help 2.0\HTML\WorldTime2000-blank.htm" />
+    <None Include="Help 2.0\HTML\WorldTime2000-index.htm" />
+    <None Include="Help 2.0\HTML\WorldTime2000-toc.htm" />
+    <None Include="Help 2.0\HTML\Theme\index.css" />
+    <None Include="Help 2.0\HTML\Theme\nav.css" />
+    <None Include="Help 2.0\HTML\Theme\toc.css" />
+    <None Include="Help 2.0\HTML\Theme\top.htm" />
+    <None Include="HLP\WorldTime2000.cnt" />
+    <None Include="HLP\WorldTime2000.hm">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="HTMLHELP\ALARMS.HTM" />
+    <None Include="HTMLHELP\changing_colors.htm" />
+    <None Include="HTMLHELP\changing_fonts.htm" />
+    <None Include="HTMLHELP\changing_sounds.htm" />
+    <None Include="HTMLHELP\changing_wallpapers.htm" />
+    <None Include="HTMLHELP\COMMANDS.HTM" />
+    <None Include="HTMLHELP\Detailed_History.htm" />
+    <None Include="HTMLHELP\DISPLAY.HTM" />
+    <None Include="HTMLHELP\FEATURES.HTM" />
+    <None Include="HTMLHELP\Index.hhk" />
+    <None Include="HTMLHELP\information.htm" />
+    <None Include="HTMLHELP\locations_list.htm" />
+    <None Include="HTMLHELP\moving_locations.htm" />
+    <None Include="HTMLHELP\order_worldtime2000.htm" />
+    <None Include="HTMLHELP\other_display_preferences.htm" />
+    <None Include="HTMLHELP\quickstart.htm" />
+    <None Include="HTMLHELP\SET_HOME.HTM" />
+    <None Include="HTMLHELP\spinning_sphere.htm" />
+    <None Include="HTMLHELP\STYLES.CSS" />
+    <None Include="HTMLHELP\SystemTray_Introduction.htm" />
+    <None Include="HTMLHELP\SystemTray_Using.htm" />
+    <None Include="HTMLHELP\SystemTray_Whatitdoes.htm" />
+    <None Include="HTMLHELP\Table of Contents.hhc" />
+    <None Include="HTMLHELP\Thumbs.db" />
+    <None Include="HTMLHELP\TITLE.HTM" />
+    <None Include="HTMLHELP\using_worldtime2000.htm" />
+    <None Include="HTMLHELP\what_if_the_time_was.htm" />
+    <None Include="HTMLHELP\WHATSNEW.HTM" />
+    <None Include="HTMLHELP\WorldTime2000.hhp" />
+    <None Include="Install\actskn43.ocx" />
+    <None Include="Install\Install Script.iep" />
+    <None Include="Install\locations_WorkInProgress.wt2000" />
+    <None Include="Install\members_WorkInProgress.wt2000" />
+    <None Include="Install\register.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Install\Thumbs.db" />
+    <None Include="Installer\Installer.vdproj" />
+    <None Include="MISC\1.50" />
+    <None Include="MISC\2.60 non compatible" />
+    <None Include="MISC\4STAR.PS" />
+    <None Include="MISC\145.ARM" />
+    <None Include="MISC\Affiliate Application Accomodation online.htm" />
+    <None Include="MISC\certificates 200.bak" />
+    <None Include="MISC\certificates 200.new" />
+    <None Include="MISC\CNET_com - Downloads - Submissions - Submitting a new progra.htm" />
+    <None Include="MISC\ICON.PSD" />
+    <None Include="MISC\intellisecure" />
+    <None Include="MISC\IntelliSecure Configuration" />
+    <None Include="MISC\Intellisense" />
+    <None Include="MISC\Key Code 1.50" />
+    <None Include="MISC\RED81.ZIP" />
+    <None Include="MISC\TEST.RKC" />
+    <None Include="MISC\Thumbs.db" />
+    <None Include="MISC\wt2k CD Layout.cl3" />
+    <None Include="MISC\WT2K Certificates.arm" />
+    <None Include="MISC\WT2K Certificates.ArmV2" />
+    <None Include="MISC\WT2K Certificates.KeyLog" />
+    <None Include="MISC\WT2K Certificates.Stats" />
+    <None Include="MISC\WT2K.ArmV1" />
+    <None Include="Register\REGISTER.BAK" />
+    <None Include="Register\register.cpp.bak" />
+    <None Include="Register\REGISTER.EXE" />
+    <None Include="Register\WT2Kkg.exe" />
+    <None Include="Skins\B-Studio.skn" />
+    <None Include="Skins\chizh.skn" />
+    <None Include="Skins\galaxy.skn" />
+    <None Include="Skins\green.skn" />
+    <None Include="Skins\locations_WorkInProgress.wt2000" />
+    <None Include="Skins\Mac.skn" />
+    <None Include="Skins\Media.skn" />
+    <None Include="Skins\members_WorkInProgress.wt2000" />
+    <None Include="Skins\metallic.skn" />
+    <None Include="Skins\Paper.skn" />
+    <None Include="Skins\TopSecret.skn" />
+    <None Include="Skins\Web-II.skn" />
+    <None Include="Skins\winaqua.skn" />
+    <None Include="Skins\Zhelezo.skn" />
+    <None Include="SOUNDS\locations_WorkInProgress.woe" />
+    <None Include="SOUNDS\members_WorkInProgress.woe" />
+    <None Include="TZEDIT\TZEDIT.CNT" />
+    <None Include="TZEDIT\TZEDIT.EXE" />
+    <None Include="TZEDIT\TZEDIT.HLP" />
+    <None Include="BUILD.BAK" />
+    <None Include="BUILD.DAT" />
+    <None Include="BUILD.EXE" />
+    <None Include="BUILD.INC" />
+    <None Include="DEFAULT.BAK" />
+    <None Include="members_WorkInProgress.wt2000" />
+    <None Include="MODIFY.BAK" />
+    <None Include="MakeHelp.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="locations_WorkInProgress.wt2000" />
+    <None Include="UpgradeLog.htm" />
+    <None Include="winaqua.skn" />
+    <None Include="WorldTime2000.chm" />
+    <None Include="WorldTime2000\new-win98-1.htm" />
+    <None Include="WorldTime2000\Thumbs.db" />
+    <None Include="WorldTime2000\Weather World Calculations.htm" />
+    <None Include="WorldTime2000\ZDNet Software Library - WorldTime2000.htm" />
+    <None Include="WorldTime2000\ZDNet Software Library - WorldTime2000_files\ZDSTYLES.CSS" />
+    <None Include="WorldTime2000\new-win98-1_files\site=volftp&amp;spacedesc=vflistafile&amp;size=468x60&amp;pp=topc.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="Archives\WS_FTP.LOG" />
+    <Text Include="data\locations.txt" />
+    <Text Include="Install\licence.txt" />
+    <Text Include="Install\ORDER.TXT" />
+    <Text Include="MISC\Worldtime.txt" />
+    <Text Include="Register\REGISTER.TXT" />
+    <Text Include="DEFAULT.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Help 2.0\HTML\properties.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Install\ALARM.WAV" />
+    <Media Include="Install\HOUR.WAV" />
+    <Media Include="Install\QUARTER.WAV" />
+    <Media Include="SOUNDS\ALARM1.WAV" />
+    <Media Include="SOUNDS\ALARM2.WAV" />
+    <Media Include="SOUNDS\ALARM3.WAV" />
+    <Media Include="SOUNDS\ALARM4.WAV" />
+    <Media Include="SOUNDS\ALARM5.WAV" />
+    <Media Include="SOUNDS\ALARM6.WAV" />
+    <Media Include="SOUNDS\ALARM7.WAV" />
+    <Media Include="SOUNDS\ALARM8.WAV" />
+    <Media Include="SOUNDS\ALARM9.WAV" />
+    <Media Include="SOUNDS\CHIME1.WAV" />
+    <Media Include="SOUNDS\CHIME2.WAV" />
+    <Media Include="SOUNDS\CHIME3.WAV" />
+    <Media Include="SOUNDS\CHIME4.WAV" />
+    <Media Include="SOUNDS\CUCKOO1.WAV" />
+    <Media Include="SOUNDS\CUCKOO2.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Register\REGISTER.OBJ" />
+    <Object Include="BUILD.OBJ" />
+  </ItemGroup>
+</Project>

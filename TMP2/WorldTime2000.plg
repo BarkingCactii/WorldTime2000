@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WorldTime2000 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\TEMP\RSPF1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WorldTime2000.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My Documents\Projects\WorldTime2000\AddDisplay.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSPF1.tmp" 
+Creating temporary file "D:\TEMP\RSPF2.tmp" with contents
+[
+winmm.lib dsound.lib /nologo /subsystem:windows /profile /debug /machine:I386 /out:"Debug/WorldTime2000.exe" 
+".\Debug\about.obj"
+".\Debug\Add.obj"
+".\Debug\AddDisplay.obj"
+".\Debug\Alarm.obj"
+".\Debug\Bitmap.obj"
+".\Debug\Bstream.obj"
+".\Debug\Crc32.obj"
+".\Debug\delete.obj"
+".\Debug\Features.obj"
+".\Debug\help.obj"
+".\Debug\Home.obj"
+".\Debug\List.obj"
+".\Debug\location.obj"
+".\Debug\MainFrm.obj"
+".\Debug\modify.obj"
+".\Debug\order.obj"
+".\Debug\Preferences.obj"
+".\Debug\Register.obj"
+".\Debug\sounds.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Str.obj"
+".\Debug\time.obj"
+".\Debug\trxtd200.obj"
+".\Debug\WorldTime2000.obj"
+".\Debug\WorldTime2000View.obj"
+".\Debug\WorldTime2000.res"
+]
+Creating command line "link.exe @D:\TEMP\RSPF2.tmp"
+<h3>Output Window</h3>
+Compiling...
+AddDisplay.cpp
+D:\My Documents\Projects\WorldTime2000\AddDisplay.cpp(27) : warning C4101: 'l1' : unreferenced local variable
+D:\My Documents\Projects\WorldTime2000\AddDisplay.cpp(27) : warning C4101: 'l2' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+WorldTime2000.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

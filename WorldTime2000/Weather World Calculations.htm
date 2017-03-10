@@ -1,0 +1,611 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)http://m2.aol.com/Accustiver/wxworld_calc.html -->
+<HTML><HEAD><TITLE>Weather World Calculations</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2516.1900" name=GENERATOR><!--This page was created using Personal Publisher from America Online, Inc.--></HEAD>
+<BODY background="Weather World Calculations_files/sky2.jpg" text=#800000>
+<P align=center><BR><IMG alt="Weather Calculations Logo" height=80 
+src="Weather World Calculations_files/banner3.gif" width=600><BR></P>
+<H1 align=center>Weather World's Collection Of Weather Equations</H1>
+<HR>
+
+<P>The equations on this page have been collected from various sources, 
+electronic, and print. <STRONG>Pay close attention to what units are 
+required</STRONG>.<BR></P>
+<P><STRONG>Note: </STRONG>The expression "x ** y" means 
+raise<BR><STRONG>x</STRONG> to the <SUP><STRONG>y</STRONG></SUP> power.<BR></P>
+<H2><A name=contents>Contents</A></H2>
+<UL>
+  <LI><A 
+  href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcdprhwb">Calculating 
+  Dewpoint, Relative Humidity, and Wetbulb</A><BR>
+  <LI>&nbsp;
+  <UL type=circle>
+    <LI><A href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcrhwb">Given 
+    Dewpoint: Calculate Relative Humidity and<BR>Wetbulb</A><BR>
+    <LI><A href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcdpwb">Given 
+    Relative Humidity: Calculate Dewpoint and<BR>Wetbulb</A><BR>
+    <LI><A href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcrhdp">Given 
+    Wetbulb: Calculate Relative Humidity and<BR>Dewpoint</A><BR>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcwb">Calculate 
+    Wetbulb</A><BR>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcrh">Calculate 
+    Relative Humidity</A><BR>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcvp">Calculate Vapor 
+    Pressure</A><BR>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcantivp">Calculate 
+    Temperature from Vapor Pressure</A><BR>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcspfhum">Calculate 
+    Specific Humidity</A><BR>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcmixratio">Calculate 
+    Mixing Ratio</A><BR></LI></UL>
+  <LI> 
+  <LI><A 
+  href="http://m2.aol.com/Accustiver/wxworld_calc.html#calchiwc">Calculating 
+  Heat Index and Wind Chill</A><BR>
+  <LI>&nbsp;
+  <UL>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#calchi">Calculating 
+    Heat Index</A><BR>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcwci">Calculating 
+    Wind Chill Index</A><BR></LI></UL>
+  <LI> 
+  <LI><A href="http://m2.aol.com/Accustiver/wxworld_calc.html#unitconv">Unit 
+  Conversions</A><BR>
+  <UL>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#tempconv">Temperature</A><BR>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#pressconv">Pressure</A><BR>
+    <LI><A 
+    href="http://m2.aol.com/Accustiver/wxworld_calc.html#windconv">Wind</A><BR></LI></UL></LI></UL>
+<HR>
+
+<H2><A name=calcdprhwb>Calculating Dewpoint, Relative Humidity, 
+and<BR>Wetbulb</A></H2>
+<P>Given either dewpoint or relative humidity, the other can be calculated 
+<STRONG>provided temperature is also given</STRONG>. If pressure is also given, 
+then wetbulb can also be calculated. Given the wetbulb, dewpoint and relative 
+humidity can be calculated<STRONG> provided temperature and pressure are also 
+given</STRONG>.<BR></P>
+<P><BR></P>
+<H3><A name=calcrhwb>Given Dewpoint: Calculate Relative Humidity 
+and<BR>Wetbulb</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><BR></P>
+<P><VAR>t</VAR> = temperature <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><VAR>p</VAR> = pressure <STRONG>(in 
+millibars)</STRONG><BR><STRONG>(optional)</STRONG><BR><BR></P>
+<P><VAR>dp</VAR> = dewpoint <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><BR></P>
+<P><VAR>rh</VAR> = relative humidity<BR><BR></P>
+<P><VAR>wb</VAR> = wetbulb <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><VAR>es</VAR> = vapor pressure when given temperature 
+<STRONG>(in<BR>millibars)</STRONG><BR><BR></P>
+<P><VAR>e</VAR> = vapor pressure when given dewpoint 
+<STRONG>(in<BR>millibars)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P>
+<P><BR></P><PRE>
+</PRE>
+<P><STRONG>es</STRONG> = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcvp">VaporPressure</A>(t)<BR></P>
+<P><STRONG>e</STRONG> = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcvp">VaporPressure</A>(dp)<BR></P>
+<P><STRONG>rh</STRONG> = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcrh">RelativeHumidity</A>(e, 
+es)<BR></P>
+<P><BR></P>
+<P>if ( <EM>pressure variable was supplied</EM> )<BR></P>
+<P><STRONG>wb</STRONG> = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcwb">Wetbulb</A>(t, p, 
+dp)<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calcdpwb>Given Relative Humidity: Calculate Dewpoint 
+and<BR>Wetbulb</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>t</VAR> = temperature <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><VAR>p</VAR> = pressure <STRONG>(in 
+millibars)</STRONG><BR><STRONG>(optional)</STRONG><BR><BR></P>
+<P><VAR>rh</VAR> = relative humidity<BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>dp</VAR> = dewpoint <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><VAR>wb</VAR> = wetbulb <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><VAR>es</VAR> = vapor pressure when given temperature 
+<STRONG>(in<BR>millibars)</STRONG><BR><BR></P>
+<P><VAR>e</VAR> = vapor pressure when given dewpoint 
+<STRONG>(in<BR>millibars)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P><PRE>
+</PRE>
+<P><STRONG>es</STRONG> = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcvp">VaporPressure</A>(t)<BR></P>
+<P><STRONG>e</STRONG> = es * (rh / 100)<BR></P>
+<P><STRONG>dp</STRONG> =<A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcantivp">TemperatureFromVaporPressure</A>(e)<BR></P>
+<P>if (rh &lt; 100)<BR></P>
+<P>if ( <EM>pressure variable was supplied</EM>)<BR></P>
+<P>{<BR></P>
+<P><STRONG>wb</STRONG> = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcwb">Wetbulb</A>(t, p, 
+dp)<BR></P>
+<P>}<BR></P>
+<P>else<BR></P>
+<P><STRONG>wb</STRONG> = dp<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calcrhdp>Given Wetbulb: Calculate Relative Humidity 
+and<BR>Dewpoint</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>t</VAR> = temperature <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><VAR>p</VAR> = pressure <STRONG>(in millibars)</STRONG><BR><BR></P>
+<P><VAR>wb</VAR> = wetbulb <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>dp</VAR> = dewpoint <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><VAR>rh</VAR> = relative humidity<BR><BR></P>
+<P><VAR>es</VAR> = vapor pressure when given temperature 
+<STRONG>(in<BR>millibars)</STRONG><BR><BR></P>
+<P><VAR>e</VAR> = vapor pressure when given dewpoint 
+<STRONG>(in<BR>millibars)</STRONG><BR><BR></P>
+<P><VAR>wbvp</VAR> = vapor pressure when given wetbulb 
+<STRONG>(in<BR>millibars)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P><PRE>
+</PRE>
+<P><STRONG>es</STRONG> = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcvp">VaporPressure</A>(t)<BR></P>
+<P>wbvp = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcvp">VaporPressure</A>(wb)<BR></P>
+<P><STRONG>e</STRONG> = wbvp-(0.00066 * (1+0.00155*wb)*p*(t-wb)<BR></P>
+<P><STRONG>dp</STRONG>=<A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcantivp">TemperatureFromVaporPressure</A>(e)<BR></P>
+<P><STRONG>rh</STRONG> = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcrh">RelativeHumidity</A>(e, 
+es)<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR>
+
+<P><BR></P>
+<P><BR></P>
+<H2><A name=calcxmoist>Related Moisture Calculations</A></H2>
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calcwb>Approximate Wetbulb</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>t</VAR> = temperature <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><VAR>p</VAR> = pressure <STRONG>(in millibars)</STRONG><BR><BR></P>
+<P><VAR>dp</VAR> = dewpoint <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>wb</VAR> = wetbulb <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Temporary Variables</H4>
+<P><BR></P>
+<P><VAR>tmin</VAR> = <VAR>temperature</VAR> or <VAR>dewpoint</VAR>, 
+whichever<BR>one is the lesser<BR><BR></P>
+<P><VAR>tmax</VAR> = <VAR>temperature</VAR> or <VAR>dewpoint</VAR>, 
+whichever<BR>one is greater<BR><BR></P>
+<P><VAR>tcur</VAR><BR><BR></P>
+<P><VAR>e</VAR><BR><BR></P>
+<P><VAR>tcvp</VAR><BR><BR></P>
+<P><VAR>peq</VAR><BR><BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P><PRE>
+</PRE>
+<P>e = <A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcvp">VaporPressure</A>(dp)<BR></P>
+<P><BR></P>
+<P>while (true)<BR></P>
+<P>{<BR></P>
+<P>tcur=(tmax+tmin)/2<BR></P>
+<P>tcvp=<A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#calcvp">VaporPressure</A>(tcur)<BR></P>
+<P>peq=0.000660*(1+0.00155*tcur)*p*(t-tcur)<BR></P>
+<P>diff=peq-tcvp+e<BR></P>
+<P><BR></P>
+<P>if abs(diff) &lt; 0.01<BR></P>
+<P><STRONG>wb</STRONG>=tcur<BR></P>
+<P><STRONG>return wb</STRONG><BR></P>
+<P><BR></P>
+<P>if (diff &lt; 0)<BR></P>
+<P>tmax=tcur<BR></P>
+<P>else<BR></P>
+<P>tmin=tcur<BR></P>
+<P>}<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calcrh>Calculate Relative Humidity</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>es</VAR> = saturated vapor pressure <STRONG>(in 
+millibars)</STRONG><BR><BR></P>
+<P><VAR>e</VAR> = actual vapor pressure <STRONG>(in 
+millibars)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>rh</VAR> = relative humidity<BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P><PRE>
+</PRE>
+<P><STRONG>rh</STRONG> = e / es * 100<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calcvp>Calculate Vapor Pressure</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>t</VAR> = temperature <STRONG>(in Celsius)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>vp</VAR> = vapor pressure <STRONG>(in millibars)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P><PRE>
+</PRE>
+<P><STRONG>vp</STRONG> = 6.112 * (10 ** ((7.5*t)/(237.7+t)))<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calcantivp>Calculate Temperature From Vapor Pressure</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>vps</VAR> = supplied vapor pressure <STRONG>(in 
+millibars)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>t</VAR> = temperature <STRONG>(in Celsius)</STRONG><BR></P>
+<P><BR></P>
+<H4>Temporary Variables</H4>
+<P><BR></P>
+<P><VAR>logs</VAR><BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P><PRE>
+</PRE>
+<P>logs=log<SUB>10</SUB>(vps/6.112)<BR></P>
+<P><STRONG>t</STRONG> = (237.7*logs)/(7.5-logs)<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calcspfhum>Calculate Specific Humidity</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>e</VAR> = actual vapor pressure<BR><BR></P>
+<P><VAR>p</VAR> = pressure<BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>spechum</VAR> = specific humidity<BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P><PRE>
+</PRE>
+<P><STRONG>spechum</STRONG> = (0.622*e)/(p-(0.378*e))<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calcmixratio>Calculate Mixing Ratio</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>e</VAR> = actual vapor pressure<BR><BR></P>
+<P><VAR>p</VAR> = pressure<BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>mixratio</VAR> = mixing ratio<BR><BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P><PRE>
+</PRE>
+<P><STRONG>mixratio</STRONG> = ((0.622*e)/(p-e))*1000<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR>
+
+<P><BR></P>
+<P><BR></P>
+<H2><A name=calchiwc>Calculating Heat Index and Wind Chill</A></H2>
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calchi>Calculating Heat Index</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>t</VAR> = temperature <STRONG>(in Fahrenheit)</STRONG><BR><BR></P>
+<P><VAR>rh</VAR> = relative humidity<BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>heatindex</VAR> = heat index <STRONG>(in Fahrenheit)</STRONG><BR></P>
+<P><BR></P>
+<H4>Temporary Variables</H4>
+<P><BR></P>
+<P><VAR>t2</VAR> = t * t<BR><BR></P>
+<P><VAR>t3</VAR> = t2 * t<BR><BR></P>
+<P><VAR>rh2</VAR> = rh * rh<BR><BR></P>
+<P><VAR>rh3</VAR> = rh2 * rh<BR><BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P>
+<P><STRONG>heatindex</STRONG> = <CODE>16.923 + 0.185212*t + 5.37941*rh 
+-<BR>0.100254*t*rh + (0.941695e-2)*t2 + (0.728898e-2)*rh2 + (0.345372e-3)*t2*rh 
+-<BR>(0.814971e-3)*t*rh2 + (0.102102e-4)*t2*rh2 - (0.38646e-4)*t3 + 
+(0.291583e-4)*rh3 +<BR>(0.142721e-5)*t3*rh + (0.197483e-6)*t*rh3 - 
+(0.218429e-7)*t3*rh2 + (0.843296e-9)*t2*rh3 
+-<BR>(0.481975e-10)*t3*rh3&nbsp;</CODE><BR></P>
+<P><BR></P>
+<P><STRONG>Note:</STRONG> A number like 0.38646e-4 is shorthand for 0.38646 
+*<BR>10<SUP>-4</SUP> and 0.000038646 in many computer languages.<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=calcwci>Calculating Wind Chill Index</A></H3>
+<P><BR></P>
+<P><BR></P>
+<H4>Input Variables</H4>
+<P><BR></P>
+<P><VAR>t</VAR> = temperature <STRONG>(in Fahrenheit)</STRONG><BR><BR></P>
+<P><VAR>speed</VAR> = wind speed <STRONG>(in miles per 
+hour)</STRONG><BR><BR></P>
+<P><BR></P>
+<H4>Output Variables</H4>
+<P><BR></P>
+<P><VAR>chill</VAR> = wind chill (<STRONG>(in Fahrenheit)</STRONG><BR></P>
+<P><BR></P>
+<H4>Algorithm</H4>
+<P><BR></P><PRE>
+</PRE>
+<P><STRONG>chill</STRONG> = 
+0.0817*(3.71*sqrt(speed)+5.81-0.25*speed)*(t-91.4)+91.4<BR></P>
+<P><BR></P>
+<P>if (chill &gt; t ) then<BR></P>
+<P>chill = t<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR>
+
+<P><BR></P>
+<P><BR></P>
+<H2><A name=unitconv>Unit Conversions</A></H2>
+<P><BR></P>
+<P><BR></P>
+<H3><A name=tempconv>Temperature Conversions</A></H3>
+<P><BR></P>
+<P><A name=convcf><STRONG>Celsius to Fahrenheit</STRONG></A><BR><BR></P>
+<P>fahrenheit = (celsius * 9 / 5) + 32<BR><BR></P>
+<P><BR></P>
+<P><A name=convfc><STRONG>Fahrenheit to Celsius</STRONG></A><BR><BR></P>
+<P>celsius = (fahrenheit-32) * 5 / 9<BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=pressconv>Pressure Conversions</A></H3>
+<P><BR></P>
+<P><BR></P>
+<P><STRONG>Note:</STRONG> Millibars are also known as hectopascals<BR></P>
+<P><BR></P>
+<H4><A name=convin>Inch Conversions</A></H4>
+<P><BR></P>
+<P>millibars = inches * 33.8653<BR><BR></P>
+<P>kilopascals = inches * 3.38653<BR><BR></P>
+<P><BR></P>
+<H4><A name=convmb>Millibar Conversions</A></H4>
+<P><BR></P>
+<P>inches = millibars / 33.8653<BR><BR></P>
+<P>kilopascals = millibars / 10<BR><BR></P>
+<P><BR></P>
+<H4><A name=convkpa>Kilopascal Conversions</A></H4>
+<P><BR></P>
+<P>millibars = kilopascals * 10<BR><BR></P>
+<P>inches = kilopascals / 3.38653<BR><BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><A 
+href="http://m2.aol.com/Accustiver/wxworld_calc.html#contents">[Contents]</A></P>
+<P><BR></P>
+<P><BR></P>
+<HR width="85%">
+
+<P><BR></P>
+<P><BR></P>
+<H3><A name=windconv>Wind Conversions</A></H3>
+<P><BR></P>
+<P><BR></P>
+<P>Convert wind units using the wind unit conversion table and the instructions 
+below.<BR></P>
+<OL>
+  <LI><BR>
+  <LI>Find the unit you are converting in the <STRONG>Convert From</STRONG> 
+  column on<BR>the left.<BR>
+  <LI>Then find the unit you are converting in the <STRONG>Convert To</STRONG> 
+  column<BR>across the top.<BR>
+  <LI>The cell that intersects the selected unit on the left and the selected 
+  unit across the top<BR>contain the number that you multiply by to convert your 
+  unit.<BR></LI></OL>
+<P><BR></P>
+<P><BR></P>
+<P><BR></P>
+<TABLE border=1>
+  <CAPTION align=top><STRONG>Wind Unit Conversion Table</STRONG></CAPTION>
+  <TBODY>
+  <TR>
+    <TD><BR></TD></TR>
+  <TR>
+    <TD><BR></TD></TR>
+  <TR>
+    <TH rowSpan=2>Convert From</TH>
+    <TH colSpan=4>Convert To<BR></TH></TR>
+  <TR>
+    <TD><BR>
+      <P><!-- TH --></P></TD>
+    <TD>miles/hour</TD>
+    <TD>meters/sec</TD>
+    <TD>kilometers/hour</TD>
+    <TD>knots<BR></TD></TR>
+  <TR>
+    <TD><BR></TD>
+    <TD>miles/hour<BR></TD>
+    <TD align=middle>---<BR></TD>
+    <TD>0.44704<BR></TD>
+    <TD>1.60934<BR></TD>
+    <TD>1.15193<BR></TD></TR>
+  <TR>
+    <TD><BR></TD>
+    <TD>meters/sec<BR></TD>
+    <TD>2.23693<BR></TD>
+    <TD align=middle>---<BR></TD>
+    <TD>3.6<BR></TD>
+    <TD>1.96936<BR></TD></TR>
+  <TR>
+    <TD><BR></TD>
+    <TD>kilometers/hour<BR></TD>
+    <TD>0.62137<BR></TD>
+    <TD>0.27778<BR></TD>
+    <TD align=middle>---<BR></TD>
+    <TD>0.54704<BR></TD></TR>
+  <TR>
+    <TD><BR></TD>
+    <TD>knots<BR></TD>
+    <TD>0.86811<BR></TD>
+    <TD>0.50778<BR></TD>
+    <TD>1.82800<BR></TD>
+    <TD align=middle>---<BR></TD></TR></TBODY></TABLE>
+<P align=center><B><BR></B><A 
+href="http://members.aol.com/Accustiver/wxworld.html"><B>Go To Weather World 
+Main Menu</B></A><B> </B><BR><BR>Send your <A 
+href="mailto:Accustiver@aol.com">comments or questions</A> to:<BR><A 
+href="mailto:Accustiver@aol.com">Accustiver@aol.com</A></P>
+<P align=center><FONT size=2>© Copyright 1997-1999, Weather 
+World</FONT><BR><BR></P>
+<P><BR></P>
+<P><BR></P>
+<P><BR></P></BODY></HTML>

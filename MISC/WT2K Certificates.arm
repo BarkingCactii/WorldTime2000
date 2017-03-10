@@ -1,0 +1,98 @@
+
+[Project]
+BitmapSeconds=0
+CertificateCount=3
+IniStyle=ArmadilloV3
+Name=WorldTime2000 1.45
+NoReportClockBack=1
+ProtectDataAfter=0
+ShowLoading=0
+TargetFile=C:\Documents and Settings\Administrator\My Documents\Visual Studio Projects\WorldTime2000\Release\WorldTime2000.exe
+Version=300
+
+[Project#Certificate0]
+BitmapSeconds=1
+Key=DEFAULT
+KeyTypes=0x11
+Name=Shareware
+ShowRegButton=1
+V2Certificate=1
+Website=http://jeffs-software.com/worldtime2000.php
+
+[Project#Certificate0#ExpireType]
+Enable=1
+ExpireType=DAYS
+Message0=This trial has expired. If you believe this message is in error, please contact us on support@jeffs-software.com
+Number=28
+ResetNewVer=1
+Revert=0
+WarnCount=5
+
+[Project#Certificate0#Nag]
+Delay=2
+Enable=1
+Message0=Welcome to the WorldTime2000 Evaluation!%n%nThis is a 'try before you buy' version of copyrighted software. If you use it beyond the evaluation period of 28 days, you are expected to register it. %nWe think the registration price of $9US is reasonable enough for anyone to afford. Click on Visit Website for more details.
+MessageType=TEXT
+
+[Project#Certificate0#NagAfter]
+ShowAfter=0
+
+[Project#Certificate1]
+BitmapSeconds=1
+Key=For 1 month only!
+KeyTypes=0x11
+Name=14 day extension
+ShowRegButton=1
+V2Certificate=1
+
+[Project#Certificate1#ExpireType]
+Enable=1
+ExpireType=DAYS
+Message0=Your 14 day evaluation extension key has expired. If you believe this message is in error, please email us at support@pcmcomputers.webcentral.com.au.%n
+Number=14
+ResetNewVer=1
+WarnCount=5
+
+[Project#Certificate1#NagAfter]
+ShowAfter=0
+
+[Project#Certificate2]
+BitmapSeconds=1
+Key=Nicky met me on the 20th May!!!
+KeyTypes=0x00
+Name=Registered
+ShowRegButton=1
+V2Certificate=1
+Website=http://jeffs-software.com
+
+[Project#Certificate2#NagAfter]
+ShowAfter=0
+
+[Project#Certificate3]
+BitmapSeconds=1
+HardwareLock=1
+Key=What a bargain!
+KeyTypes=0x11
+Name=Registered ( Hardware lock )
+ShowRegButton=1
+V2Certificate=1
+
+[Project#Certificate3#NagAfter]
+ShowAfter=0
+
+[Project#InterceptedLibs]
+Lib0=+MSVBVM50.DLL
+Lib1=+MSVBVM60.DLL
+Lib2=+VFP5R.DLL
+Lib3=+VFP6R.DLL
+Lib4=+VFP7R.DLL
+Lib5=+VFP8R.DLL
+Lib6=+PBVM70.DLL
+Lib7=+MSVCRT.DLL
+Lib8=+PROJ.DLL
+Lib9=+MSJAVA.DLL
+Lib10=+OLE32.DLL
+Lib11=+VDFVM8.DLL
+Lib12=+MFC71.DLL
+Lib13=-*
+LibCount=14

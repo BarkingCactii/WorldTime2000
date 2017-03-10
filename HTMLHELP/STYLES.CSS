@@ -1,0 +1,85 @@
+P {
+    font-size : x-small;
+    font-family : sans-serif;
+    color : #303000;
+}
+
+P.small { 
+    font-size : xx-small;
+}
+
+P.large { 
+    font-size : x-small;
+    font-family : sans-serif;
+    font-weight : bold;
+    color : #603000;
+}
+
+p.hotkey {
+    color : black;
+    font-weight : bold;
+    font-style : italic:
+}
+
+<!-- HEADINGS -->
+
+H1  {
+    color : #20a020;
+    font-size : x-large;
+    font-family : Arial;
+}
+
+H2  {
+    color : #20a020;
+    font-size : large;
+    font-family : Arial;
+}
+
+H3  {
+    color : #20a020 <!-- #0020b0 -->;
+    font-size : medium;
+    font-family : Arial;
+}
+
+H4  {
+    color : #20a020;
+    font-size : small;
+    font-family : Arial;
+}
+
+<!-- LINK -->
+
+H5  {
+    color : Cyan;
+    font-size : small;
+    font-family : sans-serif;
+}
+
+A  {
+	color : Black;
+	font-weight : bold;
+}
+
+A:Visited  {
+   color : Brown;
+}
+
+A:Active  {
+   color : Red;
+}
+
+A:Hover  {
+   color : Red;
+}
+
+HR {
+    color : #ffffc6;
+}
+
+BODY  {
+    font-size : x-small;
+    font-family : sans-serif;
+    color : #603000;
+    background-color : #e0ffe0;
+}
+

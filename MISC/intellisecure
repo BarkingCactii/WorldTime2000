@@ -1,0 +1,122 @@
+For easier reading and future reference, turn on your
+printer, and click on the Print Document button. You
+may save this document to a file, by clicking on the
+Save Document button, but do not edit the text.
+
+Six files have been generated:
+
+(1) E:\My (2) E:\My Documents\Projects\WorldTime2000\Release\Captions.(3) E:\My (4) E:\My Documents\Projects\WorldTime2000\Release\EULA1.rtff
+(5) E:\My (6) E:\My Documents\Projects\WorldTime2000\misc\test.rkc
+(3) D:\ISR2\Test\Register.rtf
+(4) D:\ISR2\Test\EULA1.rtf
+(5) D:\ISR2\Test\EULA2.rtf
+(6) D:\ISR2\Test\Default.rkc
+
+Include the first five files in your application's package.
+Do not distribute the sixth file, the package registration
+key code file. The registration key code file is required
+for the generation of key codes utilized for application-
+unlocking and trial-extension. You will be prompted to
+specify the location of the file when generating such
+key codes for customers. WARNING: No additional
+programming of your application is required, but do
+not recompile its executable file. Recompiling will
+undo the modifications made to incorporate the
+configured IntelliSecure R2 trialware lock.
+
+It is strongly recommended that you backup up the
+registration key code file on an external disk. Do not
+rename any of the generated data files. Do not alter
+your application's executable (.exe) file, and do not
+modify ISR2RT.dat, a uniquely coded ISR2 file.
+
+Your application, powered by ISR2 and its exportable
+VSA-secure encryption technology, is now resistant to
+unauthorized utilization, duplication, distribution, area
+networking, decompilation, and code extraction.
+
+You now have no need to cripple or feature-limit your
+shareware as users will be restricted to the trial usage
+period you specified. A hidden program usage log file,
+named Report.txt and ASCII-formatted, will be stored
+in every folder users install your application's .exe to.
+Report.txt may be viewed using a simple text editor.
+
+A log file contains detailed information concerning its
+associated trialware package and tracks the specific
+dates and times users enter and exit the application.
+A log file does not contain any data that threatens
+operating system or trialware package security.
+
+Captions.dat, the second file generated, contains
+language (dialog box text) translation information
+and may be customized as necessary. Existing
+translations may not be completely accurate.
+Captions.dat is in standard .ini file format.
+
+EULA1.rtf and EULA2.rtf are template end-user
+license agreement documents meant for use with
+shareware and commercial (registered) software.
+The files are in standard rich text format (RTF).
+
+Load the EULA1.rtf and EULA2.rtf document files
+into a word processor, and change the text fields
+indicated. Modify other information as necessary.
+EULA1.rtf and EULA2.rtf are only templates files.
+
+EULA1.rtf will be displayed to users of the shareware
+version of your software. EULA2.rtf will be displayed
+to users of the commercial (unlocked) version of it.
+DataET Research cannot be held responsible for
+the accuracy of the document files. Modify them
+as necessary, but don't remove the .rtf format.
+
+After modifying and saving EULA1.rtf and EULA2.rtf,
+load Register.rtf into the word processor and create
+a registration/order form. In addition to first and last
+name and billing information, request the assigned
+identification numbers of users. (The numbers are
+automatically assigned when the users first install
+your shareware package.) The Register.rtf file will
+be displayed to users when they are ready to order
+the commercial/registered/unlocked version of your
+shareware. Include appropriate pricing information on
+the form. Set the cost of registration at what you wish,
+but remember that only one copy of your shareware
+per user (per computer) may be registered as each
+identification number is unique to the computer it
+is assigned to and can unlock your program for
+unlimited utilization on only that one computer.
+
+You can have users send registration/order forms
+to you by conventional postal mail (snail-mail) or fax.
+You can also instruct users to send you registration/
+order form information by electronic mail or telephone.
+Just provide a telephone number or e-mail address in
+Register.rtf, and instruct users to pay by credit card.
+
+Again, there is no need to deliver disks, etc. that hold
+the registered version of your shareware package to
+users. You have only to ask users what ID numbers
+they have been assigned. (ID numbers are shown
+on-screen.) Then, you take the ID numbers and,
+on the Disable Lock form page, transform them
+into application-unlocking key codes that are
+communicated (sent) by telephone or e-mail.
+
+Once a user has received an application-unlocking
+key code from you and fully unlocked his/her copy
+of your shareware for unlimited utilization (unlimited
+usage days and launches), thereby transforming it
+into commercial/registered software, it will not be
+possible for him/her to duplicate or network it for
+use on an unregistered computer. Attempting to
+do so will revert the unauthorized duplication to
+the original ISR2-protected shareware version.
+(In this way, dongles are totally unnecessary.)
+
+If you encounter a problem, send an e-mail message
+to support@dataet.com. For updates, visit DataET's
+World-Wide Web site at http://www.dataet.com.
+
+Copyright © 1998 DataET Research

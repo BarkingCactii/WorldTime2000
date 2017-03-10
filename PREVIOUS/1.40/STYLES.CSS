@@ -1,0 +1,58 @@
+<!--
+	Paragraph
+--> 
+P  {
+	font-size : x-small;
+	font-family : sans-serif;
+	color : Yellow;
+}
+
+H1  {
+	color : Aqua;
+	font-size : x-large;
+	font-family : Arial;
+}
+
+H2  {
+	color : Aqua;
+	font-size : large;
+	font-family : Arial;
+}
+
+H3  {
+	color : Aqua;
+	font-size : medium;
+	font-family : Arial;
+}
+
+H4  {
+	color : Aqua;
+	font-size : small;
+	font-family : Arial;
+}
+
+H5  {
+	color : Yellow;
+	font-size : x-small;
+	font-family : sans-serif;
+}
+
+A  {}
+
+A:Visited  {
+	color : blue;
+}
+
+A:Active  {
+}
+
+A:Hover  {
+}
+
+BODY  {
+	font-size : x-small;
+	font-family : sans-serif;
+	color : Yellow;
+	background-color : Black;
+}
+

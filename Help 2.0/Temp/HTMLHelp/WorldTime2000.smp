@@ -1,0 +1,210 @@
+DocToHelp style map
+Version 1.0
+Jump from Contents	Jump from Contents	P.JumpfromContents	 	0	0
+CodeExplained	CodeExplained	P.CodeExplained	 	0	0
+Table Grid 6	Table Grid 6	TABLE.MsoTableGrid6	 	0	0
+Table Columns 2	Table Columns 2	TABLE.MsoTableColumns2	 	0	0
+Table Colorful 1	Table Colorful 1	TABLE.MsoTableColorful1	 	0	0
+HTML Preformatted	HTML Preformatted	PRE	 	0	0
+E-mail Signature	E-mail Signature	P.MsoAutoSig	 	0	0
+Body Text Indent 2	Body Text Indent 2	P.MsoBodyTextIndent2	 	0	0
+List 5	List 5	P.MsoList5	 	0	0
+Macro Text	Macro Text	P.MsoMacroText	 	0	0
+Index 9	Index 9	P.MsoIndex9	 	0	0
+hotkey	hotkey	P.hotkey	 	0	0
+Note	Note	P.Note	 	0	0
+Table Web 1	Table Web 1	TABLE.MsoTableWeb1	 	0	0
+Table Contemporary	Table Contemporary	TABLE.MsoTableContemporary	 	0	0
+Table Grid 7	Table Grid 7	TABLE.MsoTableGrid7	 	0	0
+Table Columns 3	Table Columns 3	TABLE.MsoTableColumns3	 	0	0
+Table Colorful 2	Table Colorful 2	TABLE.MsoTableColorful2	 	0	0
+z-Top of Form	z-Top of Form	P	 	0	0
+Body Text Indent 3	Body Text Indent 3	P.MsoBodyTextIndent3	 	0	0
+Message Header	Message Header	P.MsoMessageHeader	 	0	0
+Comment Reference	Comment Reference	SPAN.MsoCommentReference	 	0	0
+Envelope Return	Envelope Return	P.MsoEnvelopeReturn	 	0	0
+Jump from List	Jump from List	P.JumpfromList	 	0	0
+C1H Number	C1H Number	P.C1HNumber	 	0	0
+header odd	header odd	P.headerodd	 	0	0
+Code Base	Code Base	P.CodeBase	 	0	0
+Table Web 2	Table Web 2	TABLE.MsoTableWeb2	 	0	0
+Table Subtle 1	Table Subtle 1	TABLE.MsoTableSubtle1	 	0	0
+Table Grid 8	Table Grid 8	TABLE.MsoTableGrid8	 	0	0
+Table Columns 4	Table Columns 4	TABLE.MsoTableColumns4	 	0	0
+Table Colorful 3	Table Colorful 3	TABLE.MsoTableColorful3	 	0	0
+z-Bottom of Form	z-Bottom of Form	P	 	0	0
+List Number 2	List Number 2	P.MsoListNumber2	 	0	0
+Table of Authorities	Table of Authorities	P.MsoToa	 	0	0
+Comment Text	Comment Text	P.MsoCommentText	 	0	0
+WhatsThis	WhatsThis	P.WhatsThis	WhatsThis	7	1
+SuperTitle	SuperTitle	P.SuperTitle	 	0	0
+footer odd	footer odd	P.footerodd	 	0	0
+footer even	footer even	P.footereven	 	0	0
+Definition	Definition	P.Definition	 	0	0
+Table Web 3	Table Web 3	TABLE.MsoTableWeb3	 	0	0
+Table Subtle 2	Table Subtle 2	TABLE.MsoTableSubtle2	 	0	0
+Table 3D effects 1	Table 3D effects 1	TABLE.MsoTable3DFx1	 	0	0
+Table Columns 5	Table Columns 5	TABLE.MsoTableColumns5	 	0	0
+Body Text 2	Body Text 2	P.MsoBodyText2	 	0	0
+Salutation	Salutation	P.MsoSalutation	 	0	0
+Title	Title	P.MsoTitle	 	0	0
+List Number 3	List Number 3	P.MsoListNumber3	 	0	0
+large	large	P.large	 	0	0
+TOC Base	TOC Base	P.TOCBase	 	0	0
+Table 3D effects 2	Table 3D effects 2	TABLE.MsoTable3DFx2	 	0	0
+Table List 1	Table List 1	TABLE.MsoTableList1	 	0	0
+Table Classic 1	Table Classic 1	TABLE.MsoTableClassic1	 	0	0
+HTML Definition	HTML Definition	DFN	 	0	0
+Body Text 3	Body Text 3	P.MsoBodyText3	 	0	0
+List Number 4	List Number 4	P.MsoListNumber4	 	0	0
+Normal Indent	Normal Indent	P.MsoNormalIndent	 	0	0
+TOC 1	TOC 1	P.MsoToc1	 	0	0
+C1H Jump	C1H Jump	SPAN.C1HJump	C1H Jump	27	34
+RelatedHead	RelatedHead	P.RelatedHead	RelatedHead	12	16
+Body Text Table	Body Text Table	P.BodyTextTable	 	0	0
+Balloon Text	Balloon Text	P	 	0	0
+Table 3D effects 3	Table 3D effects 3	TABLE.MsoTable3DFx3	 	0	0
+Table List 2	Table List 2	TABLE.MsoTableList2	 	0	0
+Table Classic 2	Table Classic 2	TABLE.MsoTableClassic2	 	0	0
+No List	No List	P.MsoNormal	 	0	0
+HTML Cite	HTML Cite	CITE	 	0	0
+Emphasis	Emphasis	EM	 	0	0
+Body Text Indent	Body Text Indent	P.MsoBodyTextIndent	 	0	0
+List Number 5	List Number 5	P.MsoListNumber5	 	0	0
+Index Heading	Index Heading	P.MsoIndexHeading	 	0	0
+TOC 2	TOC 2	P.MsoToc2	 	0	0
+Heading 1	Heading 1	H1	Heading 1	1	1
+Normal	Normal	P.MsoNormal	 	0	8
+GlossaryTerm	GlossaryTerm	P.GlossaryTerm	 	0	0
+Figures Table	Figures Table	P.FiguresTable	 	0	0
+Figures	Figures	P.Figures	 	0	0
+Table List 3	Table List 3	TABLE.MsoTableList3	 	0	0
+Table Classic 3	Table Classic 3	TABLE.MsoTableClassic3	 	0	0
+Normal (Web)	Normal (Web)	P	 	0	0
+Strong	Strong	STRONG	 	0	0
+Page Number	Page Number	SPAN.MsoPageNumber	 	0	0
+TOC 3	TOC 3	P.MsoToc3	 	0	0
+Heading 2	Heading 2	H2	Heading 2	2	1
+ByLine	ByLine	P.ByLine	 	0	0
+Table Theme	Table Theme	TABLE.MsoTableTheme	 	0	0
+Table List 4	Table List 4	TABLE.MsoTableList4	 	0	0
+Table Classic 4	Table Classic 4	TABLE.MsoTableClassic4	 	0	0
+1 / a / i	1 / a / i	P	 	0	0
+HTML Typewriter	HTML Typewriter	TT	 	0	0
+HTML Acronym	HTML Acronym	ACRONYM	 	0	0
+Document Map	Document Map	P.MsoDocumentMap	 	0	0
+Signature	Signature	P.MsoSignature	 	0	0
+List Bullet	List Bullet	P.MsoListBullet	 	0	0
+Envelope Address	Envelope Address	P.MsoEnvelopeAddress	 	0	0
+TOC 4	TOC 4	P.MsoToc4	 	0	0
+Heading 3	Heading 3	H3	Heading 3	3	1
+C1H Popup	C1H Popup	SPAN.C1HPopup	C1H Popup	28	34
+C1H Number 2	C1H Number 2	P.C1HNumber2	 	0	0
+Table List 5	Table List 5	TABLE.MsoTableList5	 	0	0
+HTML Variable	HTML Variable	VAR	 	0	0
+Block Text	Block Text	P.MsoBlockText	 	0	0
+List Continue	List Continue	P.MsoListContinue	 	0	0
+Footer	Footer	P.MsoFooter	 	0	0
+TOC 5	TOC 5	P.MsoToc5	 	0	0
+Heading 4	Heading 4	H4	Heading 4	4	1
+Jump Base	Jump Base	P.JumpBase	 	0	0
+TOCTitle	TOCTitle	P.TOCTitle	 	0	0
+List Table	List Table	P.ListTable	 	0	0
+D2HNoGloss	D2HNoGloss	SPAN.D2HNoGloss	 	0	32
+Heading Base	Heading Base	P.HeadingBase	 	0	0
+Table Grid	Table Grid	TABLE.MsoTableGrid	 	0	0
+Table List 6	Table List 6	TABLE.MsoTableList6	 	0	0
+HTML Address	HTML Address	ADDRESS	 	0	0
+Note Heading	Note Heading	P.MsoNoteHeading	 	0	0
+TOC 6	TOC 6	P.MsoToc6	 	0	0
+Index 1	Index 1	P.MsoIndex1	 	0	0
+Heading 5	Heading 5	H5	Heading 5	5	1
+Keyword Link	Keyword Link	P.KeywordLink	 	0	0
+MidTopic	MidTopic	P.MidTopic	MidTopic	6	1
+C1H Bullet	C1H Bullet	P.C1HBullet	 	0	0
+TableBorder	TableBorder	P.TableBorder	 	0	0
+Source	Source	P.Source	 	0	0
+Header Base	Header Base	P.HeaderBase	 	0	0
+Table List 7	Table List 7	TABLE.MsoTableList7	 	0	0
+Comment Subject	Comment Subject	P.MsoCommentSubject	 	0	0
+HTML Keyboard	HTML Keyboard	KBD	 	0	0
+HTML Code	HTML Code	CODE	 	0	0
+Hyperlink	Hyperlink	SPAN.MsoHyperlink	 	0	32
+Body Text First Indent	Body Text First Indent	P.MsoBodyTextFirstIndent	 	0	0
+List Continue 2	List Continue 2	P.MsoListContinue2	 	0	0
+List Bullet 2	List Bullet 2	P.MsoListBullet2	 	0	0
+Line Number	Line Number	SPAN.MsoLineNumber	 	0	0
+Footnote Text	Footnote Text	P.MsoFootnoteText	 	0	0
+TOC 7	TOC 7	P.MsoToc7	 	0	0
+Index 2	Index 2	P.MsoIndex2	 	0	0
+Heading 6	Heading 6	H6	 	0	0
+HTML	HTML	SPAN.HTML	 	0	32
+link	link	P.link	 	0	0
+C1H Bullet 2A	C1H Bullet 2A	P.C1HBullet2A	 	0	0
+Table List 8	Table List 8	TABLE.MsoTableList8	 	0	0
+HTML Sample	HTML Sample	SAMP	 	0	0
+Plain Text	Plain Text	P.MsoPlainText	 	0	0
+List Continue 3	List Continue 3	P.MsoListContinue3	 	0	0
+List Bullet 3	List Bullet 3	P.MsoListBullet3	 	0	0
+Footnote Reference	Footnote Reference	SPAN.MsoFootnoteReference	 	0	32
+Table of Figures	Table of Figures	P.MsoTof	 	0	0
+Header	Header	P.MsoHeader	 	0	0
+TOC 8	TOC 8	P.MsoToc8	 	0	0
+Index 3	Index 3	P.MsoIndex3	 	0	0
+Heading 7	Heading 7	P.MsoHeading7	 	0	0
+TableHeading	TableHeading	P.TableHeading	 	0	0
+Jump	Jump	P.Jump	Jump	13	0
+header even	header even	P.headereven	 	0	0
+Table Elegant	Table Elegant	TABLE.MsoTableElegant	 	0	0
+Table Grid 1	Table Grid 1	TABLE.MsoTableGrid1	 	0	0
+Article / Section	Article / Section	P	 	0	0
+1 / 1.1 / 1.1.1	1 / 1.1 / 1.1.1	P	 	0	0
+List Continue 4	List Continue 4	P.MsoListContinue4	 	0	0
+List Bullet 4	List Bullet 4	P.MsoListBullet4	 	0	0
+TOA Heading	TOA Heading	P.MsoToaHeading	 	0	0
+Endnote Reference	Endnote Reference	SPAN.MsoEndnoteReference	 	0	0
+TOC 9	TOC 9	P.MsoToc9	 	0	0
+Index 4	Index 4	P.MsoIndex4	 	0	0
+Heading 8	Heading 8	P.MsoHeading8	 	0	0
+SourceTop	SourceTop	P.SourceTop	 	0	0
+List 2 Table	List 2 Table	P.List2Table	 	0	0
+Index Base	Index Base	P.IndexBase	 	0	0
+Table Professional	Table Professional	TABLE.MsoTableProfessional	 	0	0
+Table Grid 2	Table Grid 2	TABLE.MsoTableGrid2	 	0	0
+Table Simple 1	Table Simple 1	TABLE.MsoTableSimple1	 	0	0
+Table Normal	Table Normal	TABLE.MsoNormalTable	 	0	0
+Subtitle	Subtitle	P.MsoSubtitle	 	0	0
+List Continue 5	List Continue 5	P.MsoListContinue5	 	0	0
+List Bullet 5	List Bullet 5	P.MsoListBullet5	 	0	0
+List	List	P.MsoList	 	0	0
+Index 5	Index 5	P.MsoIndex5	 	0	0
+Heading 9	Heading 9	P.MsoHeading9	 	0	0
+C1H Index	C1H Index	SPAN.C1HIndex	C1H Index	29	33
+C1H Continue	C1H Continue	P.C1HContinue	 	0	0
+Margin Note	Margin Note	P.MarginNote	Margin Note	26	1
+BodyTable	BodyTable	P.BodyTable	 	0	0
+Table Grid 3	Table Grid 3	TABLE.MsoTableGrid3	 	0	0
+Table Simple 2	Table Simple 2	TABLE.MsoTableSimple2	 	0	0
+FollowedHyperlink	FollowedHyperlink	SPAN.MsoHyperlinkFollowed	 	0	32
+Date	Date	P.MsoDate	 	0	0
+List 2	List 2	P.MsoList2	 	0	0
+Index 6	Index 6	P.MsoIndex6	 	0	0
+CaptionTable	CaptionTable	P.CaptionTable	 	0	0
+Table Grid 4	Table Grid 4	TABLE.MsoTableGrid4	 	0	0
+Table Simple 3	Table Simple 3	TABLE.MsoTableSimple3	 	0	0
+Body Text	Body Text	P.MsoBodyText	 	0	0
+Default Paragraph Font	Default Paragraph Font	P.MsoNormal	 	0	0
+Closing	Closing	P.MsoClosing	 	0	0
+List 3	List 3	P.MsoList3	 	0	0
+Endnote Text	Endnote Text	P.MsoEndnoteText	 	0	0
+Caption	Caption	P.MsoCaption	 	0	0
+Index 7	Index 7	P.MsoIndex7	 	0	0
+C1H Continue 2	C1H Continue 2	P.C1HContinue2	 	0	0
+C1H Bullet 2	C1H Bullet 2	P.C1HBullet2	 	0	0
+TableText	TableText	P.TableText	 	0	0
+Table Grid 5	Table Grid 5	TABLE.MsoTableGrid5	 	0	0
+Table Columns 1	Table Columns 1	TABLE.MsoTableColumns1	 	0	0
+Body Text First Indent 2	Body Text First Indent 2	P.MsoBodyTextFirstIndent2	 	0	0
+List 4	List 4	P.MsoList4	 	0	0
+List Number	List Number	P.MsoListNumber	 	0	0
+Index 8	Index 8	P.MsoIndex8	 	0	0

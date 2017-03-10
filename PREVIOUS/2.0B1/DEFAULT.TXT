@@ -1,0 +1,450 @@
+Aberdeen                        Scotland                   0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Abidjan                         Cote D'Ivoire              0              <No Daylight Savings Time Scheduled>                                   
+Abilene                         United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Acapulco                        Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Adana                           Turkey                     2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Adelaide                        Australia                  9.5            Last Sunday of October at 2:00    Third Sunday of March at 2:00        
+Adis Abeba                      Ethiopia                   3              <No Daylight Savings Time Scheduled>                                   
+Akron                           United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Al-Kuwayt                       Kuwait                     3              <No Daylight Savings Time Scheduled>                                   
+Alaskan Standard Time           .                         -9              <No Daylight Savings Time Scheduled>
+Alaskan Daylight Time           .                         -8              <No Daylight Savings Time Scheduled>
+Albany                          United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Alborg                          Denmark                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Albuquerque                     United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Alexandria                      Egypt                      2              First Friday of May at 2:00       Last Wednesday of September at 2:00  
+Algiers                         Algeria                    1              <No Daylight Savings Time Scheduled>                                   
+Alma-Ata                        Kazakhstan                 5              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Amarillo                        United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Amman                           Jordan                     2              First Friday of April at 0:00     First Friday of October at 0:00      
+Amsterdam                       Netherlands                1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Anchorage                       United States             -9              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Ankara                          Turkey                     2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Antananarivo                    Madagascar                 3              <No Daylight Savings Time Scheduled>                                   
+Anvers                          Belgium                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Ar-Riyad                        Saudi Arabia               3              <No Daylight Savings Time Scheduled>                                   
+Archangel 'sk                   Russia                     3              Last Sunday of March at 3:00      Last Sunday of September at 3:00     
+Athens                          Greece                     2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Atlanta                         United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Auckland                        New Zealand               12              First Sunday of October at 2:00   Third Sunday of March at 2:00        
+Azores Standard Time            .                         -1              <No Daylight Savings Time Scheduled>
+Azores Daylight Time            .                          0              <No Daylight Savings Time Scheduled>
+Baghdad                         Iraq                       3              Last Sunday of March at 1:00      Last Sunday of September at 2:00     
+Baku                            Azerbaijan                 3              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Baltimore                       United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Bangalore                       India                      5.5            <No Daylight Savings Time Scheduled>                                   
+Bangkok                         Thailand                   7              <No Daylight Savings Time Scheduled>                                   
+Barcelona                       Spain                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Barranquilla                    Columbia                  -5              <No Daylight Savings Time Scheduled>                                   
+Beijing                         China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Beirut                          Lebanon                    2              First Sunday of May at 0:00       Third Sunday of October at 0:00      
+Belem                           Brazil                    -3              Second Sunday of October at 0:00  Second Sunday of February at 0:00    
+Belfast                         Northern Ireland           0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Belgrade                        Yugoslavia                 1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Belo Horizonte                  Brazil                    -3              Second Sunday of October at 0:00  Second Sunday of February at 0:00    
+Bergen                          Norway                     1              Last Sunday of March at 3:00      Last Sunday of September at 3:00     
+Berlin                          Germany                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Berne                           Switzerland                1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Bilbao                          Spain                      1              Last Sunday of March at 3:00      Last Sunday of September at 3:00     
+Billings                        United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Birmingham                      England                    0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Boise                           United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Bologna                         Italy                      1              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Bombay                          India                      5.5            <No Daylight Savings Time Scheduled>                                   
+Bordeaux                        France                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Boston                          United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Bransk                          Russia                     2              Last Sunday of March at 3:00      Last Sunday of September at 3:00     
+Brasov                          Romania                    2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Brazilia                        Brazil                    -3              Second Sunday of October at 0:00  Second Sunday of February at 0:00    
+Brisbane                        Australia                 10              <No Daylight Savings Time Scheduled>                                   
+Brno                            Czechoslovakia             1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Brussels                        Belgium                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Bucharest                       Romania                    2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Budapest                        Hungary                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Buenos Aires                    Argentina                 -3              <No Daylight Savings Time Scheduled>                                   
+Buffalo                         United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Burgas                          Bulgaria                   2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Butte                           United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Cagliari                        Italy                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Cairo                           Egypt                      2              First Friday of May at 2:00       Last Wednesday of September at 2:00  
+Calcutta                        India                      5.5            <No Daylight Savings Time Scheduled>                                   
+Calgary                         Canada                    -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Cancun                          Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Cape Town                       South Africa               2              <No Daylight Savings Time Scheduled>                                   
+Caracas                         Venezuela                 -4              <No Daylight Savings Time Scheduled>                                   
+Cardiff                         Wales                      0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Casablanca                      Morocco                    0              <No Daylight Savings Time Scheduled>                                   
+Cedar Rapids                    United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Celinograd                      Kazakhstan                 5              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Central Standard Time           .                         -6              <No Daylight Savings Time Scheduled>
+Central Daylight Time           .                         -5              <No Daylight Savings Time Scheduled>
+Charleston                      United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Charlotte                       United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Chengdu                         China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Chicago                         United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Chihuahua                       Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Chongqing                       China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Cincinnati                      United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Cita                            Russia                     8              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Ciudad Juarez                   Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Cleveland                       United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Colorado Springs                United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Copenhhagen                     Denmark                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Cordoba                         Argentina                 -3              <No Daylight Savings Time Scheduled>                                   
+Cork                            Ireland                    0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Culiacan                        Mexico                    -7              <No Daylight Savings Time Scheduled>                                   
+Dakar                           Senegal                    0              <No Daylight Savings Time Scheduled>                                   
+Dallas                          United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Damascus                        Syria                      2              Last Sunday of March at 2:00      First Sunday of September at 2:00    
+Danzig                          Poland                     1              Last Sunday of March at 3:00      Last Sunday of October at 2:00       
+Dar es Salaam                   Tanzania                   3              <No Daylight Savings Time Scheduled>                                   
+Darwin                          Australia                  9.5            <No Daylight Savings Time Scheduled>                                   
+Dateline Standard Time          .                         -12             <No Daylight Savings Time Scheduled>
+Dayton                          United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Delhi                           India                      5.5            <No Daylight Savings Time Scheduled>                                   
+Denver                          United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Des Moines                      United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Detroit                         United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Dhaka                           Bangladesh                 6              <No Daylight Savings Time Scheduled>                                   
+Dublin                          Ireland                    0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Duluth                          United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Durango                         Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Eastern Standard Time           .                         -5              <No Daylight Savings Time Scheduled>
+Eastern Daylight Time           .                         -4              <No Daylight Savings Time Scheduled>
+Edinburgh                       Scotland                   0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Edmonton                        Canada                    -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+El Paso                         United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Ensenada                        Mexico                    -8              <No Daylight Savings Time Scheduled>                                   
+Eugene                          United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Evansville                      United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Fargo                           United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Flint                           United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Fort Wayne                      United States             -5              <No Daylight Savings Time Scheduled>                                   
+Fort Worth                      United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Fortaleza                       Brazil                    -3              Second Sunday of October at 0:00  Second Sunday of February at 0:00    
+Frankfurt                       Germany                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Gary                            United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Genova                          Italy                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Glasgow                         Scotland                   0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Gothenburg                      Sweden                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Grand Rapids                    United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Great Falls                     United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Greenwich Standard Time         .                          0              <No Daylight Savings Time Scheduled>                                   
+Guadalajara                     Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Guangzhou                       China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Guatemala                       Guatemala                 -6              <No Daylight Savings Time Scheduled>                                   
+Guayaquil                       Ecuador                   -5              <No Daylight Savings Time Scheduled>                                   
+Ha Noi                          Vietnam                    7              <No Daylight Savings Time Scheduled>                                   
+Halab                           Syria                      2              Last Sunday of March at 2:00      First Sunday of September at 2:00    
+Hamburg                         Germany                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Harare                          Zimbabwe                   2              <No Daylight Savings Time Scheduled>                                   
+Harbin                          China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Hartford                        United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Havana                          Cuba                      -5              Third Sunday of March at 0:00     Second Sunday of October at 0:00     
+Hawaiian Standard Time          .                         -10             <No Daylight Savings Time Scheduled>
+Helsinki                        Finland                    2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Hermosillo                      Mexico                    -7              <No Daylight Savings Time Scheduled>                                   
+Hodmezovasarhely                Hungary                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Hong Kong                       China                      8              <No Daylight Savings Time Scheduled>                                   
+Honolulu                        United States             -10             <No Daylight Savings Time Scheduled>                                   
+Houston                         United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Indianapolis                    United States             -5              <No Daylight Savings Time Scheduled>                                   
+Innsbruck                       Austria                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Irkutsk                         Russia                     7              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Istanbul                        Turkey                     2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Jackson                         United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Jacksonville                    United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Jakarta                         Indonesia                  7              <No Daylight Savings Time Scheduled>                                   
+Jakutsk                         Russia                     8              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Jaroslavl                       Russia                     3              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Jekaterinburg                   Russia                     4              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Jerevan                         Armenia                    3              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Jerusalem                       Israel                     2              Last Sunday of March at 2:00      First Sunday of September at 2:00    
+Jiddah                          Saudi Arabia               3              <No Daylight Savings Time Scheduled>                                   
+Johannesburg                    South Africa               2              <No Daylight Savings Time Scheduled>                                   
+Kaliningrad                     Russia                     3              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Kampala                         Uganda                     3              <No Daylight Savings Time Scheduled>                                   
+Kansas City                     United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Karachi                         Pakistan                   5              <No Daylight Savings Time Scheduled>                                   
+Kaunus                          Lituania                   2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Kharkiv                         Ukraine                    2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Khartoum                        Sudan                      2              <No Daylight Savings Time Scheduled>                                   
+Kingaroy                        Australia                 10              <No Daylight Savings Time Scheduled>                                   
+Kingston                        Jamaica                   -5              <No Daylight Savings Time Scheduled>                                   
+Kinshasa                        Zaire                      1              <No Daylight Savings Time Scheduled>                                   
+Knoxville                       United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Krakow                          Poland                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Krasnojarsk                     Russia                     6              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Kuala Lumpur                    Malaysia                   8              <No Daylight Savings Time Scheduled>                                   
+Kyyiv                           Ukraine                    2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+La Paz                          Bolivia                   -4              <No Daylight Savings Time Scheduled>                                   
+Lagos                           Nigeria                    1              <No Daylight Savings Time Scheduled>                                   
+Lahore                          Pakistan                   5              <No Daylight Savings Time Scheduled>                                   
+Lansing                         United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Las Vegas                       United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Leon                            Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Lima                            Peru                      -5              <No Daylight Savings Time Scheduled>                                   
+Lincoln                         United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Lisboa                          Portugal                   0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Lisbon                          Portugal                   0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Little Rock                     United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+London                          England                    0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Los Angeles                     United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Louisville                      United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Lubbock                         United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Madras                          India                      5.5            <No Daylight Savings Time Scheduled>                                   
+Madrid                          Spain                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Makkah                          Saudi Arabia               3              <No Daylight Savings Time Scheduled>                                   
+Malaga                          Spain                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Managua                         Nicaragua                 -6              <No Daylight Savings Time Scheduled>                                   
+Manchester                      England                    0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Manila                          Philippines                8              <No Daylight Savings Time Scheduled>                                   
+Maracaibo                       Venezuela                 -4              <No Daylight Savings Time Scheduled>                                   
+Marseille                       France                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Matamoros                       Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Mazatlan                        Mexico                    -7              <No Daylight Savings Time Scheduled>                                   
+Medellin                        Columbia                  -5              <No Daylight Savings Time Scheduled>                                   
+Melbourne                       Australia                 10              Last Sunday of October at 2:00    Third Sunday of March at 2:00        
+Memphis                         United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Merida                          Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Mexicali                        Mexico                    -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Mexico City                     Mexico                    -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Miami                           United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Mid-Atlantic Standard Time      .                         -2              <No Daylight Savings Time Scheduled>
+Mid-Atlantic Daylight Time      .                         -1              <No Daylight Savings Time Scheduled>
+Midland                         United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Milan                           Italy                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Milwaukee                       United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Minneapolis                     United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Minsk                           Belarus                    2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Mobile                          United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Moline                          United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Monrovia                        Liberia                    0              <No Daylight Savings Time Scheduled>                                   
+Monterrey                       Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Montevideo                      Uruguay                   -3              Second Sunday of March at 2:00    Last Sunday of October at 2:00       
+Montgomery                      United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Montreal                        Canada                    -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Moscow                          Russia                     2              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Mountain Standard Time          .                         -7              <No Daylight Savings Time Scheduled>
+Mountain Daylight Time          .                         -6              <No Daylight Savings Time Scheduled>
+Mukden                          China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Munich                          Germany                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Nagoya                          Japan                      9              <No Daylight Savings Time Scheduled>                                   
+Nairobi                         Kenya                      3              <No Daylight Savings Time Scheduled>                                   
+Nanango                         Australia                 10              <No Daylight Savings Time Scheduled>                                   
+Nanjing                         China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Nantes                          France                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Naples                          Italy                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Nashville                       United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Nassau                          Bahamas                   -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+New Orleans                     United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+New York                        United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Newark                          United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Nice                            France                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Nogales                         Mexico                    -7              <No Daylight Savings Time Scheduled>                                   
+Norfolk                         United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Nottingham                      England                    0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Novgorod                        Russia                     2              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Novosibirsk                     Russia                     6              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Nuevo Laredo                    Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Oakland                         United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Odesa                           Ukraine                    2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Ogden                           United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Oklahoma City                   United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Omaha                           United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Omsk                            Russia                     5              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Osaka                           Japan                      9              <No Daylight Savings Time Scheduled>                                   
+Oslo                            Norway                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Ottawa                          Canada                    -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Pacific Standard Time           .                         -8              <No Daylight Savings Time Scheduled>
+Pacific Daylight Time           .                         -7              <No Daylight Savings Time Scheduled>
+Palermo                         Italy                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Panama                          Panama                    -5              <No Daylight Savings Time Scheduled>                                   
+Paris                           France                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Peking                          China                      8              <No Daylight Savings Time Scheduled>                                   
+Perm                            Russia                     4              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Perth                           Australia                  8              <No Daylight Savings Time Scheduled>                                   
+Philadelphia                    United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Phoenix                         United States             -7              <No Daylight Savings Time Scheduled>                                   
+Pittsburgh                      United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Port Moresby                    New Guinea                10              <No Daylight Savings Time Scheduled>                                   
+Port-au-Prince                  Haiti                     -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Portland                        United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Porto                           Portugal                   0              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Porto Alegre                    Brazil                    -3              Second Sunday of October at 0:00  Second Sunday of February at 0:00    
+Poznan                          Poland                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Prague                          Czechoslovakia             1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Pretoria                        South Africa               2              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Providence                      United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Puebla                          Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Pueblo                          United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Quebec                          Canada                    -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Quito                           Ecuador                   -5              <No Daylight Savings Time Scheduled>                                   
+Rabat                           Morocco                    0              <No Daylight Savings Time Scheduled>                                   
+Rapid City                      United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Reno                            United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Reykjavik                       Iceland                    0              <No Daylight Savings Time Scheduled>                                   
+Richmond                        United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Riga                            Latvia                     2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Rio De Janeiro                  Brazil                    -3              Second Sunday of October at 0:00  Second Sunday of February at 0:00    
+Rochester                       United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Rockford                        United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Rome                            Italy                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Rotterdam                       Netherlands                1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Rouen                           France                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Rovaniemi                       Finland                    2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+SA Western Standard Time        .                         -4              <No Daylight Savings Time Scheduled>
+SA Pacific Standard Time        .                         -5              <No Daylight Savings Time Scheduled>
+Sacramento                      United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Saigon                          Vietnam                    7              <No Daylight Savings Time Scheduled>                                   
+Salem                           United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Salonika                        Greece                     2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Salt Lake City                  United States             -7              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Salvador                        Brazil                    -3              Second Sunday of October at 0:00  Second Sunday of February at 0:00    
+Salzburg                        Austria                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Samara                          Russia                     3              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Samoa Standard Time             .                         -11             <No Daylight Savings Time Scheduled>
+San Antonio                     United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+San Bernardino                  United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+San Diego                       United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+San Francisco                   United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+San Jose                        Costa Rica                -6              <No Daylight Savings Time Scheduled>                                   
+San Juan                        Puerto Rico               -4              <No Daylight Savings Time Scheduled>                                   
+San Luis Potosi                 Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+San Salvador                    El Salvador               -6              <No Daylight Savings Time Scheduled>                                   
+Santa Fe De Bogota              Columbia                  -5              <No Daylight Savings Time Scheduled>                                   
+Santiago                        Chile                     -4              Second Sunday of October at 0:00  Second Sunday of March at 0:00       
+Santo Domingo                   Dominican Republic        -4              <No Daylight Savings Time Scheduled>                                   
+Sao Paulo                       Brazil                    -3              Second Sunday of October at 0:00  Second Sunday of February at 0:00    
+Savannah                        United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Seattle                         United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Semipalatinsk                   Kazakhstan                 5              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Seoul                           South Korea                9              <No Daylight Savings Time Scheduled>                                   
+Sevilla                         Spain                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Shanghai                        China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Shreveport                      United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Singapore                       Singapore                  8              <No Daylight Savings Time Scheduled>                                   
+Sioux Falls                     United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Skopje                          Yugoslavia                 1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Sofia                           Bulgaria                   2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Spokane                         United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Springfield                     United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+St. Louis                       United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+St. Paul                        United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+St. Petersburg                  Russia                     2              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Stockholm                       Sweden                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Sydney                          Australia                 10              Last Sunday of October at 2:00    Third Sunday of March at 2:00        
+T'Aipei                         Taiwan                     8              <No Daylight Savings Time Scheduled>                                   
+Tacoma                          United States             -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Tallin                          Estonia                    2              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Tampa                           United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Tampico                         Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Tartu                           Estonia                    2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Taskent                         Uzbekistan                 5              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Tbilisi                         Georgia                    3              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Tegucigalpa                     Nicaragua                 -6              <No Daylight Savings Time Scheduled>                                   
+Tehran                          Iran                       3.5            <No Daylight Savings Time Scheduled>                                   
+Tel Aviv                        Israel                     2              Last Sunday of March at 2:00      First Sunday of September at 2:00    
+Tientsin                        China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Tijuana                         Mexico                    -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Tokyo                           Japan                      9              <No Daylight Savings Time Scheduled>                                   
+Tomsk                           Russia                     6              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Topeka                          United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Toronto                         Canada                    -4              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Torreon                         Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Toulouse                        France                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Tripoli                         Libya                      1              First Friday of May at 0:00       First Sunday of October at 0:00      
+Trondheim                       Norway                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Tucson                          United States             -7              <No Daylight Savings Time Scheduled>                                   
+Tula                            Russia                     2              Fourth Sunday of March at 2:00    Last Sunday of September at 3:00     
+Tulsa                           United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Tunis                           Tunisia                    1              Last Sunday of March at 0:00      Last Sunday of September at 1:00     
+Tver                            Russia                     3              Last Sunday of March at 2:00      Last Sunday of September at 3:00     
+Ulaanbaatar                     Mongolia                   8              Last Sunday of March at 1:00      Last Sunday of September at 2:00     
+Urumqi                          China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+US Mountain Standard Time       .                         -7              <No Daylight Savings Time Scheduled>
+Vancouver                       Canada                    -8              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Veracruz                        Mexico                    -6              <No Daylight Savings Time Scheduled>                                   
+Vienna                          Austria                    1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Vilnius                         Lituania                   2              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Warsaw                          Poland                     1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Washington                      United States             -5              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Wellington                      New Zealand               12              First Sunday of October at 2:00   Third Sunday of March at 2:00        
+Wichita                         United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Wichita Falls                   United States             -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Winnipeg                        Canada                    -6              First Sunday of April at 2:00     Last Sunday of October at 2:00       
+Wuhan                           China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Xi'An                           China                      8              Second Sunday of April at 0:00    Third Sunday of September at 0:00    
+Yangon                          Myanmar                    6.5            <No Daylight Savings Time Scheduled>                                   
+Zaragoza                        Spain                      1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+Zurich                          Switzerland                1              Last Sunday of March at 3:00      Last Sunday of October at 3:00       
+GMT Standard Time               .                          0              <No Daylight Savings Time Scheduled>
+GMT Daylight Time               .                          1              <No Daylight Savings Time Scheduled>
+W. Europe Standard Time         .                          1              <No Daylight Savings Time Scheduled>
+W. Europe Daylight Time         .                          2              <No Daylight Savings Time Scheduled>
+Central Europe Standard Time    .                          1              <No Daylight Savings Time Scheduled>
+Central Europe Daylight Time    .                          2              <No Daylight Savings Time Scheduled>
+Romance Standard Time           .                          1              <No Daylight Savings Time Scheduled>
+Romance Daylight Time           .                          2              <No Daylight Savings Time Scheduled>
+Central European Standard Time  .                          1              <No Daylight Savings Time Scheduled>
+Central European Daylight Time  .                          2              <No Daylight Savings Time Scheduled>
+GTB Standard Time               .                          2              <No Daylight Savings Time Scheduled>
+GTB Daylight Time               .                          3              <No Daylight Savings Time Scheduled>
+E. Europe Standard Time         .                          2              <No Daylight Savings Time Scheduled>
+E. Europe Daylight Time         .                          3              <No Daylight Savings Time Scheduled>
+Egypt Standard Time             .                          2              <No Daylight Savings Time Scheduled>
+Egypt Daylight Time             .                          3              <No Daylight Savings Time Scheduled>
+South Africa Standard Time      .                          2              <No Daylight Savings Time Scheduled>
+FLE Standard Time               .                          2              <No Daylight Savings Time Scheduled>
+FLE Daylight Time               .                          3              <No Daylight Savings Time Scheduled>
+Israel Standard Time            .                          2              <No Daylight Savings Time Scheduled>
+Arab Standard Time              .                          3              <No Daylight Savings Time Scheduled>
+Russian Standard Time           .                          3              <No Daylight Savings Time Scheduled>
+Russian Daylight Time           .                          4              <No Daylight Savings Time Scheduled>
+E. Africa Standard Time         .                          3              <No Daylight Savings Time Scheduled>
+Iran Standard Time              .                          3.5            <No Daylight Savings Time Scheduled>
+Iran Daylight Time              .                          4.5            <No Daylight Savings Time Scheduled>
+Arabian Standard Time           .                          4              <No Daylight Savings Time Scheduled>
+Caucasus Standard Time          .                          4              <No Daylight Savings Time Scheduled>
+Afghanistan Standard Time       .                          4.5            <No Daylight Savings Time Scheduled>
+Ekaterinburg Standard Time      .                          5              <No Daylight Savings Time Scheduled>
+Ekaterinburg Daylight Time      .                          6              <No Daylight Savings Time Scheduled>
+West Asia Standard Time         .                          5              <No Daylight Savings Time Scheduled>
+India Standard Time             .                          5.5            <No Daylight Savings Time Scheduled>
+Central Asia Standard Time      .                          6              <No Daylight Savings Time Scheduled>
+Sri Lanka Standard Time         .                          6              <No Daylight Savings Time Scheduled>
+SE Asia Standard Time           .                          7              <No Daylight Savings Time Scheduled>
+China Standard Time             .                          8              <No Daylight Savings Time Scheduled>
+W. Australia Standard Time      .                          8              <No Daylight Savings Time Scheduled>
+Singapore Standard Time         .                          8              <No Daylight Savings Time Scheduled>
+Taipei Standard Time            .                          8              <No Daylight Savings Time Scheduled>
+Tokyo Standard Time             .                          9              <No Daylight Savings Time Scheduled>
+Korea Standard Time             .                          9              <No Daylight Savings Time Scheduled>
+Yakutsk Standard Time           .                          9              <No Daylight Savings Time Scheduled>
+Yakutsk Daylight Time           .                          10             <No Daylight Savings Time Scheduled>
+Cen. Australia Standard Time    .                          9.5            <No Daylight Savings Time Scheduled>
+Cen. Australia Daylight Time    .                          10.5           <No Daylight Savings Time Scheduled>
+AUS Central Standard Time       .                          9.5            <No Daylight Savings Time Scheduled>
+E. Australia Standard Time      .                          10             <No Daylight Savings Time Scheduled>
+AUS Eastern Standard Time       .                          10             <No Daylight Savings Time Scheduled>
+AUS Eastern Daylight Time       .                          11             <No Daylight Savings Time Scheduled>
+West Pacific Standard Time      .                          10             <No Daylight Savings Time Scheduled>
+Tasmania Standard Time          .                          10             <No Daylight Savings Time Scheduled>
+Tasmania Daylight Time          .                          11             <No Daylight Savings Time Scheduled>
+Vladivostok Standard Time       .                          10             <No Daylight Savings Time Scheduled>
+Vladivostok Daylight Time       .                          11             <No Daylight Savings Time Scheduled>
+Central Pacific Standard Time   .                          11             <No Daylight Savings Time Scheduled>
+New Zealand Standard Time       .                          12             <No Daylight Savings Time Scheduled>
+New Zealand Daylight Time       .                          13             <No Daylight Savings Time Scheduled>
+Fiji Standard Time              .                          12             <No Daylight Savings Time Scheduled>
+E. South America Standard Time  .                         -3              <No Daylight Savings Time Scheduled>
+E. South America Daylight Time  .                         -2              <No Daylight Savings Time Scheduled>
+SA Eastern Standard Time        .                         -3              <No Daylight Savings Time Scheduled>
+Newfoundland Standard Time      .                         -3.5            <No Daylight Savings Time Scheduled>
+Newfoundland Daylight Time      .                         -2.5            <No Daylight Savings Time Scheduled>
+Atlantic Standard Time          .                         -4              <No Daylight Savings Time Scheduled>
+Atlantic Daylight Time          .                         -3              <No Daylight Savings Time Scheduled>
+US Eastern Standard Time        .                         -5              <No Daylight Savings Time Scheduled>
+Mexico Standard Time            .                         -6              <No Daylight Savings Time Scheduled>
+Canada Central Standard Time    .                         -6              <No Daylight Savings Time Scheduled>
+

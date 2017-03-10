@@ -1,0 +1,606 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0059)http://volftp.tin.it/i/software/liste/liste/new-win98-1.htm -->
+<HTML><HEAD>
+<META content=text/html;charset=iso-8859-1 http-equiv=Content-Type>
+<META content=it http-equiv=Content-Language>
+<META content="VOLftp, ftp, shareware, freeware, demo, game" name=Keywords>
+<META content="Lista file" name=Description>
+<META content="Andrea Matta <matta@programmers.net>" name=Author>
+<SCRIPT language=javascript>
+<!--
+var nPagina = 1;
+var nFilePerPagina = 8;
+var nTotFile = 548;
+var sBaseHref = 'new-win98';
+var nTotPagine = 0;
+var sIndice = "-";
+
+function Intestazione()
+{
+	// aggiorno la barra orizzontale
+	parent.VFtitolo = "Windows 98 - nuovi file";
+	parent.VFindice = sIndice;
+	parent.VFnpagina = nPagina;
+	parent.VFfileperpagina = nFilePerPagina;
+	parent.VFtotfile = nTotFile;
+	parent.VFbasehref = sBaseHref;
+	
+	if ( !parent.frames[2] )
+		alert("ATTENZIONE! Stai visualizzando una lista file senza i frame di contorno. Per una corretta visualizzazione raccomandiamo vivamente di partire dalla nostra home page (http://volftp.tin.it) e da li' seguire il link alle liste file.");
+	else
+	{
+		if (parseInt(navigator.appVersion) < 4) 
+			parent.frames[2].location = parent.frames[2].location.href + '?' + Math.random();
+		else
+			parent.frames[2].location.reload();
+	}
+
+	if ( nTotFile == 0 ) {
+		document.write('<b>Nessun file in questa categoria</b>.');
+		return;
+	}
+	nTotPagine = Math.round(0.49+nTotFile/nFilePerPagina);
+	var nFirst = ((nPagina-1)*nFilePerPagina+1);
+	var nLast = (nPagina*nFilePerPagina);
+	if ( nPagina == nTotPagine ) nLast = nTotFile;
+	document.write('<b>' + nTotFile + '</b> file in questa lista, pagina ' + nPagina + '/'
+		+ nTotPagine + ' (dal '+ nFirst +'° al '+ nLast +'°)');
+}
+
+function Pagine()
+{
+	var nStart = nPagina-5;
+	var nStop = nPagina+5;
+	if ( nStart < 1 ) nStart = 1;
+	if ( nStop > nTotPagine ) nStop = nTotPagine;
+	if ( nStop == nStart ) return;
+	if ( nTotPagine > 1 )
+		document.write('<font size=1>Pagina:<br>');
+	if ( nPagina > 1 )
+		document.write('<a href="' + sBaseHref + '-' + (nPagina-1) + '.htm">&lt;&lt;&lt;</a> - ');
+	for ( i=nStart; i<=nStop; i++ )
+	{
+		if ( i != nPagina )
+			document.write('<a href="' + sBaseHref + '-' + i + '.htm">' + i + '</a> - ');
+		else
+			document.write('<b>' + i + '</b> - ');
+	}
+	if ( nPagina < nTotPagine )
+		document.write('<a href="' + sBaseHref + '-' + (nPagina+1) + '.htm">&gt;&gt;&gt;</a> ');
+	document.write('</font>');
+}
+//-->
+</SCRIPT>
+
+<STYLE type=text/css>.bump {
+	HEIGHT: 1px; WIDTH: 1px
+}
+#test {
+	BACKGROUND-COLOR: #ffcc00
+}
+</STYLE>
+
+<STYLE type=text/css>A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+</STYLE>
+
+<META content="MSHTML 5.00.2516.1900" name=GENERATOR></HEAD>
+<BODY bgColor=white link=blue text=black vLink=blue><FONT 
+face="Arial, Helvetica" size=2>
+<CENTER><!-- AdSpace site=volftp spacedesc=vflistafile size=468x60 pp=topc --><IFRAME 
+frameBorder=0 height=60 marginHeight=0 marginWidth=0 scrolling=no 
+src="new-win98-1_files/site=volftp&amp;spacedesc=vflistafile&amp;size=468x60&amp;pp=topc.htm" 
+width=468 
+BORDERCOLOR="#000000">
+
+    <SCRIPT LANGUAGE="JavaScript1.1" 
+        SRC="http://pksun1.publikompass.it:80/js.ng/Params.richmedia=yes&site=volftp&spacedesc=vflistafile&size=468x60&pp=topc">
+    </SCRIPT>
+
+    <NOSCRIPT>
+        <A HREF="http://pksun1.publikompass.it:80/click.ng/Params.richmedia=yes&site=volftp&spacedesc=vflistafile&size=468x60&pp=topc">
+        <IMG SRC="http://pksun1.publikompass.it:80/image.ng/Params.richmedia=yes&site=volftp&spacedesc=vflistafile&size=468x60&pp=topc" BORDER=0 HEIGHT=60 WIDTH=468></A>
+    </NOSCRIPT>
+</IFRAME><!-- /AdSpace --><BR>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD><FONT color=blue face=Verdana,Arial size=2><B>Windows 98 - nuovi 
+      file</B></FONT></TD>
+    <TD align=right><FONT face=Verdana,Arial size=2><A 
+      href="http://volftp.tin.it/i/software/liste/legenda.htm"><FONT 
+      color=blue><B>&gt; legenda dei simboli 
+  utilizzati</B></FONT></A></FONT></TD></TR></TBODY></TABLE></CENTER>
+<P>
+<SCRIPT language=javascript>
+<!-- 
+Intestazione();
+// -->
+</SCRIPT>
+
+<CENTER>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=blue><FONT color=white 
+      face="Arial, Helvetica"><B>Postcard 1.0 beta</B> <IMG align=absMiddle 
+      src="new-win98-1_files/new.gif"> </FONT></TD></TR>
+  <TR bgColor=#dfefff>
+    <TD align=middle><FONT face="Verdana, Arial, Helvetica" size=2><B><A 
+      href="http://volftp.tin.it/i/dl.htm?/pub/pc/windows/win98/progs/graphic/postcard.zip" 
+      target=_top>preleva il file <U>postcard.zip</U></A></B> </FONT></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR>Data: 06/08/1999,</NOBR> <NOBR>231.083 
+            bytes</NOBR></FONT></TD>
+          <TD align=middle><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR><B></B></NOBR></FONT></TD>
+          <TD align=right width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><B>Freeware</B></FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=red><IMG height=1 src="new-win98-1_files/null.gif" 
+  width=1></TD></TR>
+  <TR>
+    <TD><FONT face="Arial, Helvetica" size=3>
+      <P align=justify>Programma per la creazione di "cartoline" in formato GIF 
+      con tutti i tipi di font TrueType. Un solo click del mouse ed il testo 
+      viene convertito in formato GIF. Il client di posta del ricevente 
+      mostrera' la cartolina automaticamente. </P></FONT></TD></TR>
+  <TR>
+    <TD align=right><FONT face="Verdana, Arial, Helvetica" size=2>[<A 
+      href="http://volftp.tin.it/cgi/scheda?f/it/postcard.zip">scheda 
+      informativa</A>]</FONT></TD></TR>
+  <TR>
+    <TD><IMG height=1 src="new-win98-1_files/null.gif" width=1></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#dfefff><A 
+      href="http://volftp.tin.it/i/software/liste/avvisi/1.htm"><IMG 
+      alt=Avviso... border=0 src="new-win98-1_files/a1.gif"></A><A 
+      href="http://volftp.tin.it/i/software/liste/avvisi/3.htm"><IMG 
+      alt=Avviso... border=0 src="new-win98-1_files/a3.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/preview?file=postcard.zip&amp;fm=1"><IMG 
+      alt="Visualizza una schermata del programma..." border=0 
+      src="new-win98-1_files/preview.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/zz?zip=postcard.zip&amp;dir=/pub/pc/windows/win98/progs/graphic&amp;fm=1"><IMG 
+      alt=it border=0 src="new-win98-1_files/zip.gif"></A> <A 
+      href="http://wallaperdaily.com/postcard/" target=new><IMG 
+      alt="Home page del programma..." border=0 
+      src="new-win98-1_files/url.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/fbm?postcard.zip" target=_top><IMG 
+      alt="Clic qui per ricevere il file via email" border=0 
+      src="new-win98-1_files/fbm.gif"></A> &nbsp; </TD></TR></TBODY></TABLE><BR>
+<CENTER><IMG src="new-win98-1_files/onda.gif"></CENTER><BR>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=blue><FONT color=white 
+      face="Arial, Helvetica"><B>Stealth Ping 3.1</B> <IMG align=absMiddle 
+      src="new-win98-1_files/new.gif"> <IMG align=absMiddle alt=Voto=3 
+      src="new-win98-1_files/3.gif"> </FONT></TD></TR>
+  <TR bgColor=#dfefff>
+    <TD align=middle><FONT face="Verdana, Arial, Helvetica" size=2><B><A 
+      href="http://volftp.tin.it/i/dl.htm?/pub/pc/windows/win98/progs/network/ppp/stpng31.zip" 
+      target=_top>preleva il file <U>stpng31.zip</U></A></B> </FONT></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR>Data: 06/08/1999,</NOBR> <NOBR>27.455 
+            bytes</NOBR></FONT></TD>
+          <TD align=middle><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR><B>97 download</B></NOBR></FONT></TD>
+          <TD align=right width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><B>Shareware</B>, <NOBR>24.95 US$,</NOBR> <NOBR>45408 
+            Lire,</NOBR> <NOBR>23.46 
+EURO</NOBR></FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=red><IMG height=1 src="new-win98-1_files/null.gif" 
+  width=1></TD></TR>
+  <TR>
+    <TD><FONT face="Arial, Helvetica" size=3>
+      <P align=justify>Utility per Windows 95/98/NT 4.0 che invia costantemente 
+      dei pacchetti di dati simulando un'attivita' in corso. In questo modo e' 
+      possibile evitare che il vostro Internet provider vi disconnetta per 
+      temporanea inattivita'. Semplicissimo da installare ed utilizzare: 
+      eseguitelo e dimenticatevi di averlo! Per connessioni SLIP/PPP. Il 
+      programma termina di funzionare dopo 10 giorni. </P></FONT></TD></TR>
+  <TR>
+    <TD align=right><FONT face="Verdana, Arial, Helvetica" size=2>[<A 
+      href="http://volftp.tin.it/cgi/scheda?f/it/stpng31.zip">scheda 
+      informativa</A>]</FONT></TD></TR>
+  <TR>
+    <TD><IMG height=1 src="new-win98-1_files/null.gif" width=1></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#dfefff><A 
+      href="http://volftp.tin.it/i/software/liste/avvisi/3.htm"><IMG 
+      alt=Avviso... border=0 src="new-win98-1_files/a3.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/preview?file=stpng31.zip&amp;fm=1"><IMG 
+      alt="Visualizza una schermata del programma..." border=0 
+      src="new-win98-1_files/preview.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/zz?zip=stpng31.zip&amp;dir=/pub/pc/windows/win98/progs/network/ppp&amp;fm=1"><IMG 
+      alt=it border=0 src="new-win98-1_files/zip.gif"></A> <A 
+      href="http://www.mcs.net/~stealth/" target=new><IMG 
+      alt="Home page del programma..." border=0 
+      src="new-win98-1_files/url.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/fbm?stpng31.zip" target=_top><IMG 
+      alt="Clic qui per ricevere il file via email" border=0 
+      src="new-win98-1_files/fbm.gif"></A> &nbsp; </TD></TR></TBODY></TABLE><BR>
+<CENTER><IMG src="new-win98-1_files/onda.gif"></CENTER><BR>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=blue><FONT color=white 
+      face="Arial, Helvetica"><B>Web Companion Deluxe 2.5.2</B> <IMG 
+      align=absMiddle src="new-win98-1_files/new.gif"> </FONT></TD></TR>
+  <TR bgColor=#dfefff>
+    <TD align=middle><FONT face="Verdana, Arial, Helvetica" size=2><B><A 
+      href="http://volftp.tin.it/i/dl.htm?/pub/pc/windows/win98/programming/html/webcom.zip" 
+      target=_top>preleva il file <U>webcom.zip</U></A></B> </FONT></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR>Data: 06/08/1999,</NOBR> <NOBR>4.595.083 
+            bytes</NOBR></FONT></TD>
+          <TD align=middle><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR><B>22 download</B></NOBR></FONT></TD>
+          <TD align=right width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><B>Shareware</B>, <NOBR>49.95 US$,</NOBR> <NOBR>90909 
+            Lire,</NOBR> <NOBR>46.96 
+EURO</NOBR></FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=red><IMG height=1 src="new-win98-1_files/null.gif" 
+  width=1></TD></TR>
+  <TR>
+    <TD><FONT face="Arial, Helvetica" size=3>
+      <P align=justify>Programma che offre tutti gli strumenti necessari per la 
+      produzione di pagine Web di qualita', dalla visualizzazione di thumbnail 
+      (anteprime di immagini), all'upload delle pagine, all'inserimento del 
+      vostro sito nei numerosi motori di ricerca presenti in Rete. 
+      Un'interfaccia a linguette permette di passare rapidamente da un tool 
+      all'altro. Contiene anche un editor HTML con un wizard che permette 
+      d'impostare tutti gli attributi della pagina (colori del testo, immagini 
+      di sfondo, stili dei font e meta tag).. Termina di funzionare dopo 20 
+      utilizzi. </P></FONT></TD></TR>
+  <TR>
+    <TD align=right><FONT face="Verdana, Arial, Helvetica" size=2>[<A 
+      href="http://volftp.tin.it/cgi/scheda?f/it/webcom.zip">scheda 
+      informativa</A>]</FONT></TD></TR>
+  <TR>
+    <TD><IMG height=1 src="new-win98-1_files/null.gif" width=1></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#dfefff><A 
+      href="http://volftp.tin.it/i/software/liste/avvisi/3.htm"><IMG 
+      alt=Avviso... border=0 src="new-win98-1_files/a3.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/preview?file=webcom.zip&amp;fm=1"><IMG 
+      alt="Visualizza una schermata del programma..." border=0 
+      src="new-win98-1_files/preview.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/zz?zip=webcom.zip&amp;dir=/pub/pc/windows/win98/programming/html&amp;fm=1"><IMG 
+      alt=it border=0 src="new-win98-1_files/zip.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/split/query_split?nomefile=/pub/pc/windows/win98/programming/html/webcom.zip" 
+      target=_top><IMG alt="Suddivide il file in parti più piccole" border=0 
+      src="new-win98-1_files/split.gif"></A> <A href="http://www.ablazze.com/" 
+      target=new><IMG alt="Home page del programma..." border=0 
+      src="new-win98-1_files/url.gif"></A> &nbsp; </TD></TR></TBODY></TABLE><BR>
+<CENTER><IMG src="new-win98-1_files/onda.gif"></CENTER><BR>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=blue><FONT color=white 
+      face="Arial, Helvetica"><B>Really Easy Voice 1.1.2</B> <IMG 
+      align=absMiddle src="new-win98-1_files/new.gif"> </FONT></TD></TR>
+  <TR bgColor=#dfefff>
+    <TD align=middle><FONT face="Verdana, Arial, Helvetica" size=2><B><A 
+      href="http://volftp.tin.it/i/dl.htm?/pub/pc/windows/win98/progs/communications/internet/voneplee.exe" 
+      target=_top>preleva il file <U>voneplee.exe</U></A></B> </FONT></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR>Data: 06/08/1999,</NOBR> <NOBR>738.384 
+            bytes</NOBR></FONT></TD>
+          <TD align=middle><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR><B></B></NOBR></FONT></TD>
+          <TD align=right width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><B>Demo</B>, <NOBR>24.95 US$,</NOBR> <NOBR>45408 Lire,</NOBR> 
+            <NOBR>23.46 EURO</NOBR></FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=red><IMG height=1 src="new-win98-1_files/null.gif" 
+  width=1></TD></TR>
+  <TR>
+    <TD><FONT face="Arial, Helvetica" size=3>
+      <P align=justify>Programma che permette a due persone collegate ad 
+      Internet di chiamarsi a vicenda, in modo rapido e facile, usando le loro 
+      schede audio. Si installa in pochi minuti, con una guida al 
+      perfezionamento dell'audio, compensando automaticamente i problemi di 
+      qualita' dell'audio. Consente di conversare live, full-duplex anche con 
+      collegamenti con modem relativamente lenti (28.8Kbps). </P></FONT></TD></TR>
+  <TR>
+    <TD align=right><FONT face="Verdana, Arial, Helvetica" size=2>[<A 
+      href="http://volftp.tin.it/cgi/scheda?f/it/voneplee.exe">scheda 
+      informativa</A>]</FONT></TD></TR>
+  <TR>
+    <TD><IMG height=1 src="new-win98-1_files/null.gif" width=1></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#dfefff><A 
+      href="http://volftp.tin.it/i/software/liste/avvisi/3.htm"><IMG 
+      alt=Avviso... border=0 src="new-win98-1_files/a3.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/preview?file=voneplee.exe&amp;fm=1"><IMG 
+      alt="Visualizza una schermata del programma..." border=0 
+      src="new-win98-1_files/preview.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/split/query_split?nomefile=/pub/pc/windows/win98/progs/communications/internet/voneplee.exe" 
+      target=_top><IMG alt="Suddivide il file in parti più piccole" border=0 
+      src="new-win98-1_files/split.gif"></A> <A 
+      href="http://www.really-easy.com/" target=new><IMG 
+      alt="Home page del programma..." border=0 
+      src="new-win98-1_files/url.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/fbm?voneplee.exe" target=_top><IMG 
+      alt="Clic qui per ricevere il file via email" border=0 
+      src="new-win98-1_files/fbm.gif"></A> &nbsp; </TD></TR></TBODY></TABLE><BR>
+<CENTER><IMG src="new-win98-1_files/onda.gif"></CENTER><BR>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=blue><FONT color=white 
+      face="Arial, Helvetica"><B>Proj Clock Pro 3.03</B> <IMG align=absMiddle 
+      src="new-win98-1_files/new.gif"> </FONT></TD></TR>
+  <TR bgColor=#dfefff>
+    <TD align=middle><FONT face="Verdana, Arial, Helvetica" size=2><B><A 
+      href="http://volftp.tin.it/i/dl.htm?/pub/pc/windows/win98/progs/desktop/clocks/pcpro303.zip" 
+      target=_top>preleva il file <U>pcpro303.zip</U></A></B> </FONT></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR>Data: 06/08/1999,</NOBR> <NOBR>1.328.575 
+            bytes</NOBR></FONT></TD>
+          <TD align=middle><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR><B>75 download</B></NOBR></FONT></TD>
+          <TD align=right width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><B>Demo</B>, <NOBR>25.00 US$,</NOBR> <NOBR>45500 Lire,</NOBR> 
+            <NOBR>23.50 EURO</NOBR></FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=red><IMG height=1 src="new-win98-1_files/null.gif" 
+  width=1></TD></TR>
+  <TR>
+    <TD><FONT face="Arial, Helvetica" size=3>
+      <P align=justify>Proj Clock e' un programma creato per misurare il tempo 
+      dedicato ad un singolo progetto. Il programma e' accessibile dalla System 
+      Tray. Un display visualizza il tempo quotidiano impiegato per ogni 
+      progetto, funzioni avanzate di report vi forniranno un ottimo resoconto. 
+      </P></FONT></TD></TR>
+  <TR>
+    <TD align=right><FONT face="Verdana, Arial, Helvetica" size=2>[<A 
+      href="http://volftp.tin.it/cgi/scheda?f/it/pcpro303.zip">scheda 
+      informativa</A>]</FONT></TD></TR>
+  <TR>
+    <TD><IMG height=1 src="new-win98-1_files/null.gif" width=1></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#dfefff><A 
+      href="http://volftp.tin.it/i/software/liste/avvisi/3.htm"><IMG 
+      alt=Avviso... border=0 src="new-win98-1_files/a3.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/preview?file=pcpro303.zip&amp;fm=1"><IMG 
+      alt="Visualizza una schermata del programma..." border=0 
+      src="new-win98-1_files/preview.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/zz?zip=pcpro303.zip&amp;dir=/pub/pc/windows/win98/progs/desktop/clocks&amp;fm=1"><IMG 
+      alt=it border=0 src="new-win98-1_files/zip.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/split/query_split?nomefile=/pub/pc/windows/win98/progs/desktop/clocks/pcpro303.zip" 
+      target=_top><IMG alt="Suddivide il file in parti più piccole" border=0 
+      src="new-win98-1_files/split.gif"></A> <A 
+      href="http://www.cyber-matrix.com/pclock.htm" target=new><IMG 
+      alt="Home page del programma..." border=0 
+      src="new-win98-1_files/url.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/fbm?pcpro303.zip" target=_top><IMG 
+      alt="Clic qui per ricevere il file via email" border=0 
+      src="new-win98-1_files/fbm.gif"></A> &nbsp; </TD></TR></TBODY></TABLE><BR>
+<CENTER><IMG src="new-win98-1_files/onda.gif"></CENTER><BR>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=blue><FONT color=white 
+      face="Arial, Helvetica"><B>WorldTime2000 v2.0</B> <IMG align=absMiddle 
+      src="new-win98-1_files/new.gif"> <IMG align=absMiddle alt=Voto=3 
+      src="new-win98-1_files/3.gif"> </FONT></TD></TR>
+  <TR bgColor=#dfefff>
+    <TD align=middle><FONT face="Verdana, Arial, Helvetica" size=2><B><A 
+      href="http://volftp.tin.it/i/dl.htm?/pub/pc/windows/win98/progs/desktop/clocks/wt2k-200.exe" 
+      target=_top>preleva il file <U>wt2k-200.exe</U></A></B> </FONT></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR>Data: 06/08/1999,</NOBR> <NOBR>1.020.652 
+            bytes</NOBR></FONT></TD>
+          <TD align=middle><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR><B></B></NOBR></FONT></TD>
+          <TD align=right width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><B>Shareware</B>, <NOBR>9.00 US$,</NOBR> <NOBR>16380 
+            Lire,</NOBR> <NOBR>8.46 EURO</NOBR></FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=red><IMG height=1 src="new-win98-1_files/null.gif" 
+  width=1></TD></TR>
+  <TR>
+    <TD><FONT face="Arial, Helvetica" size=3>
+      <P align=justify>WorldTime2000 ci consente di sapere l'ora esatta in molte 
+      zone del mondo. E' disponibile visualizzare l'ora di ben 400 citta' del 
+      mondo: con questo programma non ci saranno piu' problemi con i fusi orari. 
+      Graficamente molto gradevole (sullo sfondo della piccola finestra un mondo 
+      che ruota). Facilissimo da usare: e' semplice aggiungere alla lista la 
+      citta' desiderata. </P></FONT></TD></TR>
+  <TR>
+    <TD align=right><FONT face="Verdana, Arial, Helvetica" size=2>[<A 
+      href="http://volftp.tin.it/cgi/scheda?f/it/wt2k-200.exe">scheda 
+      informativa</A>]</FONT></TD></TR>
+  <TR>
+    <TD><IMG height=1 src="new-win98-1_files/null.gif" width=1></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#dfefff><A 
+      href="http://volftp.tin.it/i/software/liste/avvisi/3.htm"><IMG 
+      alt=Avviso... border=0 src="new-win98-1_files/a3.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/preview?file=wt2k-200.exe&amp;fm=1"><IMG 
+      alt="Visualizza una schermata del programma..." border=0 
+      src="new-win98-1_files/preview.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/split/query_split?nomefile=/pub/pc/windows/win98/progs/desktop/clocks/wt2k-200.exe" 
+      target=_top><IMG alt="Suddivide il file in parti più piccole" border=0 
+      src="new-win98-1_files/split.gif"></A> <A 
+      href="http://www.pcmcomputers.webcentral.com.au/worldtime.htm" 
+      target=new><IMG alt="Home page del programma..." border=0 
+      src="new-win98-1_files/url.gif"></A> <IMG align=absMiddle 
+      alt="Questo programma è DA NON PERDERE!" src="new-win98-1_files/hot.gif"> 
+      <A href="http://volftp.tin.it/cgi/fbm?wt2k-200.exe" target=_top><IMG 
+      alt="Clic qui per ricevere il file via email" border=0 
+      src="new-win98-1_files/fbm.gif"></A> &nbsp; </TD></TR></TBODY></TABLE><BR>
+<CENTER><IMG src="new-win98-1_files/onda.gif"></CENTER><BR>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=blue><FONT color=white 
+      face="Arial, Helvetica"><B>Danea Phone Assistant 99.7</B> <IMG 
+      align=absMiddle src="new-win98-1_files/new.gif"> <IMG align=absMiddle 
+      alt=Voto=4 src="new-win98-1_files/4.gif"> </FONT></TD></TR>
+  <TR bgColor=#dfefff>
+    <TD align=middle><FONT face="Verdana, Arial, Helvetica" size=2><B><A 
+      href="http://volftp.tin.it/i/dl.htm?/pub/pc/windows/win98/progs/communications/dpa.exe" 
+      target=_top>preleva il file <U>dpa.exe</U></A></B> </FONT></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR>Data: 06/08/1999,</NOBR> <NOBR>2.063.737 
+            bytes</NOBR></FONT></TD>
+          <TD align=middle><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR><B>534 download</B></NOBR></FONT></TD>
+          <TD align=right width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><B>Freeware</B></FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=red><IMG height=1 src="new-win98-1_files/null.gif" 
+  width=1></TD></TR>
+  <TR>
+    <TD><FONT face="Arial, Helvetica" size=3>
+      <P align=justify>Finalmente anche in Italia c'è concorrenza nella 
+      telefonia fissa. Ora si può scegliere quale gestore usare per fare una 
+      telefonata ottenendo spesso consistenti risparmi. Ma non sempre è facile 
+      capire qual'è il migliore gestore da usare in un certo momento della 
+      giornata. Niente più confusione ed indecisioni per decidere se chiamare 
+      con Telecom, Infostrada, Wind, Tele2, ecc... Danea Phone Assistant aiuta a 
+      prendere la giusta decisione scegliendo la migliore tariffa possibile! 
+      </P></FONT></TD></TR>
+  <TR>
+    <TD align=right><FONT face="Verdana, Arial, Helvetica" size=2>[<A 
+      href="http://volftp.tin.it/cgi/scheda?f/it/dpa.exe">scheda 
+      informativa</A>]</FONT></TD></TR>
+  <TR>
+    <TD><IMG height=1 src="new-win98-1_files/null.gif" width=1></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#dfefff><A 
+      href="http://volftp.tin.it/i/software/liste/avvisi/3.htm"><IMG 
+      alt=Avviso... border=0 src="new-win98-1_files/a3.gif"></A><A 
+      href="http://volftp.tin.it/i/software/liste/avvisi/4.htm"><IMG 
+      alt=Avviso... border=0 src="new-win98-1_files/a4.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/preview?file=dpa.exe&amp;fm=1"><IMG 
+      alt="Visualizza una schermata del programma..." border=0 
+      src="new-win98-1_files/preview.gif"></A> <A 
+      href="http://volftp.tin.it/cgi/split/query_split?nomefile=/pub/pc/windows/win98/progs/communications/dpa.exe" 
+      target=_top><IMG alt="Suddivide il file in parti più piccole" border=0 
+      src="new-win98-1_files/split.gif"></A> <A href="http://www.danea.it/" 
+      target=new><IMG alt="Home page del programma..." border=0 
+      src="new-win98-1_files/url.gif"></A> <IMG align=absMiddle 
+      alt="Questo programma è DA NON PERDERE!" src="new-win98-1_files/hot.gif"> 
+      <A href="http://volftp.tin.it/cgi/fbm?dpa.exe" target=_top><IMG 
+      alt="Clic qui per ricevere il file via email" border=0 
+      src="new-win98-1_files/fbm.gif"></A> &nbsp; </TD></TR></TBODY></TABLE><BR>
+<CENTER><IMG src="new-win98-1_files/onda.gif"></CENTER><BR>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="98%">
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=blue><FONT color=white 
+      face="Arial, Helvetica"><B>Romeo &amp; Juliet Icons Collection</B> <IMG 
+      align=absMiddle src="new-win98-1_files/new.gif"> <IMG align=absMiddle 
+      alt=Voto=3 src="new-win98-1_files/3.gif"> </FONT></TD></TR>
+  <TR bgColor=#dfefff>
+    <TD align=middle><FONT face="Verdana, Arial, Helvetica" size=2><B><A 
+      href="http://volftp.tin.it/i/dl.htm?/pub/pc/windows/win98/icons/romeo.zip" 
+      target=_top>preleva il file <U>romeo.zip</U></A></B> </FONT></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellPadding=0 cellSpacing=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR>Data: 06/08/1999,</NOBR> <NOBR>22.115 
+            bytes</NOBR></FONT></TD>
+          <TD align=middle><FONT color=blue face="Arial, Helvetica" 
+            size=2><NOBR><B></B></NOBR></FONT></TD>
+          <TD align=right width="35%"><FONT color=blue face="Arial, Helvetica" 
+            size=2><B>Freeware</B></FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=red><IMG height=1 src="new-win98-1_files/null.gif" 
+  width=1></TD></TR>
+  <TR>
+    <TD><FONT face="Arial, Helvetica" size=3>
+      <P align=justify>Collezione di icone (4), graficamente carine, da 
+      utilizzare per rimpiazzare, per esempio, le vecchie presenti sul nostro 
+      computer. Collezione dedicata ai due innamorati piu' famosi del mondo: 
+      Romeo e Giulietta. </P></FONT></TD></TR>
+  <TR>
+    <TD align=right><FONT face="Verdana, Arial, Helvetica" size=2>[<A 
+      href="http://volftp.tin.it/cgi/scheda?f/it/romeo.zip">scheda 
+      informativa</A>]</FONT></TD></TR>
+  <TR>
+    <TD><IMG height=1 src="new-win98-1_files/null.gif" width=1></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#dfefff><A 
+      href="http://volftp.tin.it/cgi/zz?zip=romeo.zip&amp;dir=/pub/pc/windows/win98/icons&amp;fm=1"><IMG 
+      alt=it border=0 src="new-win98-1_files/zip.gif"></A> <IMG align=absMiddle 
+      alt="Questo programma è DA NON PERDERE!" src="new-win98-1_files/hot.gif"> 
+      <A href="http://volftp.tin.it/cgi/fbm?romeo.zip" target=_top><IMG 
+      alt="Clic qui per ricevere il file via email" border=0 
+      src="new-win98-1_files/fbm.gif"></A> &nbsp; </TD></TR></TBODY></TABLE><BR>
+<CENTER><IMG src="new-win98-1_files/onda.gif"></CENTER><BR><BR>
+<CENTER>
+<SCRIPT language=javascript>
+<!-- 
+Pagine();
+// -->
+</SCRIPT>
+</CENTER></FONT><BR><BR>
+<CENTER>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD align=middle background=new-win98-1_files/barrablugiu.gif height=85 
+    noWrap width="100%"><FONT color=#feaa3e face="Arial, Helvetica" 
+      size=1>VOLftp è un servizio di<BR><A href="http://www.mondadori.com/" 
+      target=_top><IMG alt=Mondadori.COM border=0 
+      src="new-win98-1_files/mondacom.gif"></A> </FONT></TD></TR>
+  <TR>
+    <TD bgColor=white height=1 width="100%"><IMG alt=spazio border=0 height=1 
+      src="new-win98-1_files/null.gif" width=1></TD></TR>
+  <TR>
+    <TD align=middle background=new-win98-1_files/barrarossagiu.gif height=25 
+    vAlign=top><FONT color=#feaa3e face="Arial, Helvetica" size=1>© Mondadori 
+      S.p.a. Tutti i diritti di proprietà letteraria e artistica 
+    riservati</FONT></TD></TR></TBODY></TABLE></CENTER></CENTER></BODY></HTML>

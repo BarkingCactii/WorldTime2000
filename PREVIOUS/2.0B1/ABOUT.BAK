@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+        <title>Features</title>
+
+<style>
+P {
+    font-size : x-small;
+    font-family : sans-serif;
+    color : #ffffc6;
+}
+
+P.small { 
+    font-size : xx-small;
+}
+
+P.large { 
+    font-size : x-small;
+    font-family : sans-serif;
+    font-weight : bold;
+    color : #ffff00;
+}
+
+p.hotkey {
+    color : #44ff44;
+    font-weight : bold;
+    font-style : italic:
+}
+
+<!-- HEADINGS -->
+
+H1  {
+    color : #ffe000;
+    font-size : x-large;
+    font-family : Arial;
+}
+
+H2  {
+    color : #ffe000;
+    font-size : large;
+    font-family : Arial;
+}
+
+H3  {
+    color : #ffe000;
+    font-size : medium;
+    font-family : Arial;
+}
+
+H4  {
+    color : #ffe000;
+    font-size : small;
+    font-family : Arial;
+}
+
+<!-- LINK -->
+
+H5  {
+    color : Cyan;
+    font-size : small;
+    font-family : sans-serif;
+}
+
+A  {}
+
+A:Visited  {
+   color : Cyan;
+}
+
+A:Active  {
+   color : Cyan;
+}
+
+A:Hover  {
+   color : Cyan;
+}
+
+HR {
+    color : #ffffc6;
+}
+
+BODY  {
+    font-size : x-small;
+    font-family : sans-serif;
+    color : #ffffc6;
+    background-color : Black;
+}
+
+</style>        
+
+</head>
+
+<body>
+
+<H1>
+<SCRIPT LANGUAGE="JavaScript1.2">
+
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+<!-- Begin
+function initArray() {
+this.length = initArray.arguments.length;
+for (var i = 0; i < this.length; i++) {
+this[i] = initArray.arguments[i];
+   }
+}
+
+
+var ctext = "WorldTime2000";
+var speed = 1000;
+var x = 0;
+var color = new initArray(
+"#ff0000", 
+"#ff8429",
+"#ffff10",
+"#d6ef39",
+"#7bc618",
+"#299c39",
+"#089494",
+"#00a5c6"
+);
+if(navigator.appName == "Netscape") {
+document.write('<layer id="c"><center>'+ctext+'</center></layer><br>');
+}
+if (navigator.appVersion.indexOf("MSIE") != -1){
+document.write('<div id="c"><center>'+ctext+'</center></div>');
+}
+function chcolor(){ 
+if(navigator.appName == "Netscape") {
+document.c.document.write('<center><font color="'+color[x]);
+document.c.document.write('">'+ctext+'</font></center>');
+document.c.document.close();
+}
+else if (navigator.appVersion.indexOf("MSIE") != -1){
+document.all.c.style.color = color[x];
+}
+(x < color.length-1) ? x++ : x = 0;
+}
+setInterval("chcolor()",150);
+// End -->
+</SCRIPT>
+
+
+<!-- Script Size:  1.31 KB -->
+
+</H1>
+
+
+<CENTER><H3>Version 2.00 Beta 1</H3></CENTER>
+<CENTER><h4>Copyright 1999 PCM Computer Systems Pty Ltd</h4></CENTER>
+
+<center>
+
+<p class=large>
+    To buy WorldTime2000, choose 'How to order' from the help menu,<BR>
+    or go to the WorldTime2000 web page and Click on Register
+</p>
+
+<P class>
+For the latest Information, the latest builds, where to buy WorldTime2000 point your browser to 
+<A HREF="http://www.pcmcomputers.webcentral.com.au/worldtime.htm">http://www.pcmcomputers.webcentral.com.au/worldtime.htm</A><BR><BR> 
+If you wish to make any comments, report bugs, request features etc email<BR>
+<A href="mailto:comments@pcmcomputers.webcentral.com.au">comments@pcmcomputers.webcentral.com.au</A><BR>
+If you require support for this product, email<BR>
+<A href="mailto:support@pcmcomputers.webcentral.com.au">support@pcmcomputers.webcentral.com.au</A><BR>
+</P>
+
+</center>
+
+
+</body>
+</html>

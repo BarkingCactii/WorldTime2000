@@ -1,0 +1,86 @@
+Introducation
+	WorldTime 2000 is a simple and else to use application for figuring the time
+	or difference in time from one location to another.  By simply Choosing your
+	home location and then selecting another location somewhere in the world,
+	WorldTime 2000 will display the current time for that location, plus the date,
+	and difference in hours from the home location.  Also if that location is 
+	currently on daylight savings.
+
+
+
+Set Home/Reference
+	To correctly use WorldTime 2000 you must first choose your home location.
+	Select Set Home/Reference or use the hot key H.  Once choosen you will be
+	promted to type in your current location in the world. Once you have done this
+	hit the enter key.  This will take you back to the main user screen.  You home
+	location will appear at the top in yellow text, surrounded by a yellow border.
+	WorldTime 2000 uses the date and time set on you computer to figure your current
+	time and date for your location. No matter what city, state, or country you type
+	in, WorldTime 2000 will always use the information from the computer's internal 
+	clock and date set.
+
+Add to Locations List
+	This function allows you to add a location to the already large list of world
+	cities avaliable in WorldTime 2000.  If you have a location you wish to add choose
+	the Add to locations list button in the tool bar or use the hot key A.  You will
+	be prompted to enter the Name/Town.  
+		EXAMPLE: Sydney, Australia
+	Then you will asked the Offset in hours from GMT ( Grenish Mean Time)  This is amount
+	of time plus (+) or minus (-) of GMT.  You will need to know if the city, town, etc,
+	is currently on Daylight Savings and the start and ending dates.  This can
+	also be entered here. I fyou do not know if the location you wish to add is a user
+	of daylight savings of not, you may not get a correct time reading to other location
+	in WorldTime 2000. Once you have entered your new location to add to WorldTime 
+	2000 press the ok button.  You will the find you new location added to the list of 
+	locations found in the Add locations to display list.  More often then not you new
+	location will be added to the bottom of the list and not neccesarliy in alphabetical order.
+		
+Add Location to Display
+	This function allows you to choose one of the many cities already programed into WorldTime 
+	2000. Once the button has been selected a box with a list will appear.  The cites are shown
+	in alphabetical order by the first letter of the city, not country.  To the left of the 
+	city will be the GMT time either plus (+) or minus (-).  Once you have highlighted a city 
+	you have the option of seeing more details about that city, by selecting the "show details"	
+	button.  If this button is selected you will see a more detailed outline of the city. This
+	will show the offset in hours from GMT and weather or not the location is subject to daylight
+	savings.  You will notice that this box is the same as the "add location" except for one minor
+	difference.   You have the opion to modify this location at this point. As before you will
+	be able to see the starting and ending dates for the daylight savings. If a location is modified
+	you are able to return to that location and change the setting back to the original setting or
+	choose a new setting. 
+
+	Once you have selected a location to add to the display and press the button marked "OK", this
+	location will be added to the WorldTime 2000 display screen in green. The location will be 
+	displayed, city and then country.  The icon of the sun indicates if that location is currently
+	on daylight savings.  If no sun is present then that location is currently not on daylight savings
+	at this time.  The Time at that location will appear next.  This is the current time at that location.
+	The Date appears after the time.  The last item to show on the same line of your newly added location,
+	will be a number either, plus (+) of Minus (-).  This number is to indicate the number of hours
+	from you home location that you chose Under Set Home/ Reference. The add location to display
+	may also be accessed by using the hot key D.
+
+Modify Location
+	This is the same screen that was to be found under add to display by pressing the "show Details"
+	button.  You are able to select a location in the list of locations that appear on the screen.
+	You are able to change the offset in hours from GMT, and adjust the daylight savings details.
+	As before you are able to modify a location by pressing the modify button.  A location can be
+	re-modified by re-selecting that location. You can access the feature by using the hot key M.
+Delete Location
+	This funcation allows you to delete a location from the list of cities.  This program will ask
+	to confirm that you wish to delete this location.  Once a location has been deleted, the only 
+	way to re-establish that location back into the list is to  use the Add location feature of the
+	WorldTime 2000 program.
+Display Screen
+	The display screen has all the information you need to have in order to find the difference in
+	time from on place to another, and the number of hours differnece from one location to another.
+	All locations in green will show the number of hours difference from your home location on the far
+	right side of the screen.  This will either be a plus (+) or minus (-) number to your home location.
+	If your wish to see the difference between two locations in green. Left click on a green location, this 
+	will highlight that city in red.  At that time all the numbers on the far right will either be plus (+)
+	or minus (-) to that red highlighted location, including your home location.  If you right click
+	on a location it will remove that location from the display but not from the program.  To re-select 
+	that city, return to the Add location to display function, and re-select that city.
+Prefrences
+	This funtion allows you to choose to display the locations in 24 hours time or not, by simply ticking
+	the box.  You also have the option to remove the graphical spinning icon of the earth, by simply ticking
+	box, and choosing ok.

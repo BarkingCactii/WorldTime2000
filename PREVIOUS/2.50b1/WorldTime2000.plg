@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WorldTime2000 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc09 /fo"Release/WorldTime2000.res" /d "NDEBUG" "C:\Documents and Settings\jeff\My Documents\WorldTime2000\WorldTime2000.rc"" 
+Creating temporary file "C:\DOCUME~1\jeff\LOCALS~1\Temp\RSP8.bat" with contents
+[
+@echo off
+.\build.exe
+]
+Creating command line "C:\DOCUME~1\jeff\LOCALS~1\Temp\RSP8.bat"
+Compiling resources...
+Creating temporary file "C:\DOCUME~1\jeff\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+winmm.lib dsound.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/WorldTime2000.pdb" /machine:I386 /out:"Release/WorldTime2000.exe" 
+".\Release\about.obj"
+".\Release\Add.obj"
+".\Release\AddDisplay.obj"
+".\Release\Alarm.obj"
+".\Release\Bitmap.obj"
+".\Release\Bstream.obj"
+".\Release\delete.obj"
+".\Release\Features.obj"
+".\Release\help.obj"
+".\Release\Home.obj"
+".\Release\Legend.obj"
+".\Release\List.obj"
+".\Release\location.obj"
+".\Release\MainFrm.obj"
+".\Release\modify.obj"
+".\Release\order.obj"
+".\Release\Preferences.obj"
+".\Release\sounds.obj"
+".\Release\StdAfx.obj"
+".\Release\Str.obj"
+".\Release\time.obj"
+".\Release\TRAYICON.OBJ"
+".\Release\trxtd200.obj"
+".\Release\whatif.obj"
+".\Release\WorldTime2000.obj"
+".\Release\WorldTime2000View.obj"
+".\Release\WorldTime2000.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\jeff\LOCALS~1\Temp\RSP9.tmp"
+
+Current Build # -> 452
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+WorldTime2000.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

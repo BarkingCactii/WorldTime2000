@@ -1,0 +1,1 @@
+IDR_MAINFRAME "WorldTime2000 Build # 256"

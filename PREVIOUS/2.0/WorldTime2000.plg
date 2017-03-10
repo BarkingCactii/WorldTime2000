@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WorldTime2000 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc09 /fo"Release/WorldTime2000.res" /d "NDEBUG" "D:\My Documents\Projects\WorldTime2000\WorldTime2000.rc"" 
+Creating temporary file "C:\DOCUME~1\JEFFHI~1\LOCALS~1\Temp\RSP1E5.tmp" with contents
+[
+/nologo /MT /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/WorldTime2000.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\My Documents\Projects\WorldTime2000\Add.cpp"
+"D:\My Documents\Projects\WorldTime2000\AddDisplay.cpp"
+"D:\My Documents\Projects\WorldTime2000\Alarm.cpp"
+"D:\My Documents\Projects\WorldTime2000\Crc32.cpp"
+"D:\My Documents\Projects\WorldTime2000\delete.cpp"
+"D:\My Documents\Projects\WorldTime2000\Home.cpp"
+"D:\My Documents\Projects\WorldTime2000\location.cpp"
+"D:\My Documents\Projects\WorldTime2000\MainFrm.cpp"
+"D:\My Documents\Projects\WorldTime2000\modify.cpp"
+"D:\My Documents\Projects\WorldTime2000\Preferences.cpp"
+"D:\My Documents\Projects\WorldTime2000\Register.cpp"
+"D:\My Documents\Projects\WorldTime2000\sounds.cpp"
+"D:\My Documents\Projects\WorldTime2000\TRAYICON.CPP"
+"D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp"
+"D:\My Documents\Projects\WorldTime2000\WorldTime2000View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JEFFHI~1\LOCALS~1\Temp\RSP1E5.tmp" 
+Creating temporary file "C:\DOCUME~1\JEFFHI~1\LOCALS~1\Temp\RSP1E6.bat" with contents
+[
+@echo off
+.\build.exe
+]
+Creating command line "C:\DOCUME~1\JEFFHI~1\LOCALS~1\Temp\RSP1E6.bat"
+Compiling resources...
+Compiling...
+Add.cpp
+AddDisplay.cpp
+Alarm.cpp
+Crc32.cpp
+D:\My Documents\Projects\WorldTime2000\Crc32.cpp(111) : warning C4018: '<' : signed/unsigned mismatch
+D:\My Documents\Projects\WorldTime2000\Crc32.cpp(186) : warning C4305: '=' : truncation from 'const __int64' to 'unsigned long'
+D:\My Documents\Projects\WorldTime2000\Crc32.cpp(186) : warning C4309: '=' : truncation of constant value
+D:\My Documents\Projects\WorldTime2000\Crc32.cpp(228) : warning C4305: '=' : truncation from 'const __int64' to 'unsigned long'
+D:\My Documents\Projects\WorldTime2000\Crc32.cpp(228) : warning C4309: '=' : truncation of constant value
+delete.cpp
+Home.cpp
+location.cpp
+MainFrm.cpp
+D:\My Documents\Projects\WorldTime2000\MainFrm.cpp(822) : warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+modify.cpp
+Preferences.cpp
+Register.cpp
+sounds.cpp
+TRAYICON.CPP
+WorldTime2000.cpp
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(555) : warning C4018: '!=' : signed/unsigned mismatch
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(555) : warning C4018: '!=' : signed/unsigned mismatch
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(560) : warning C4244: '=' : conversion from 'unsigned long' to 'short', possible loss of data
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(561) : warning C4244: '=' : conversion from 'unsigned long' to 'short', possible loss of data
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(613) : warning C4101: 'l1' : unreferenced local variable
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(613) : warning C4101: 'l2' : unreferenced local variable
+WorldTime2000View.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\JEFFHI~1\LOCALS~1\Temp\RSP1E7.tmp" with contents
+[
+winmm.lib dsound.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/WorldTime2000.pdb" /machine:I386 /out:"Release/WorldTime2000.exe" 
+".\Release\about.obj"
+".\Release\Add.obj"
+".\Release\AddDisplay.obj"
+".\Release\Alarm.obj"
+".\Release\Bitmap.obj"
+".\Release\Bstream.obj"
+".\Release\Crc32.obj"
+".\Release\delete.obj"
+".\Release\Features.obj"
+".\Release\help.obj"
+".\Release\Home.obj"
+".\Release\List.obj"
+".\Release\location.obj"
+".\Release\MainFrm.obj"
+".\Release\modify.obj"
+".\Release\order.obj"
+".\Release\Preferences.obj"
+".\Release\Register.obj"
+".\Release\sounds.obj"
+".\Release\StdAfx.obj"
+".\Release\Str.obj"
+".\Release\time.obj"
+".\Release\TRAYICON.OBJ"
+".\Release\trxtd200.obj"
+".\Release\WorldTime2000.obj"
+".\Release\WorldTime2000View.obj"
+".\Release\WorldTime2000.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\JEFFHI~1\LOCALS~1\Temp\RSP1E7.tmp"
+
+Current Build # -> 238
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+WorldTime2000.exe - 0 error(s), 12 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,48 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_DETAILS                             0x10003
+HID_FILE_HOME                           0x18003
+HID_FILE_ADD                            0x18005
+HID_HELP_FUTURE                         0x18007
+HID_FILE_ADDTODISPLAY                   0x18008
+HID_FILE_PREFERENCES                    0x1800A
+HID_FILE_DELETE                         0x1800C
+HID_FILE_MODIFY                         0x1800D
+HID_BUTTON32782                         0x1800E
+HID_HELP_CONTENTS                       0x18010
+HID_SHOW_TOOLBAR                        0x18011
+HID_SHOW_STATUS_BAR                     0x18012
+HID_FILE_ALARM                          0x18018
+HID_FILE_ALARMRESET                     0x18019
+HID_CONTEXT_DELETE                      0x1801A
+HID_CONTEXT_MODIFY                      0x1801B
+HID_REGISTER                            0x1801C
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_WORLDTTYPE                         0x20081
+HIDR_HTML1                              0x200DF
+HIDR_JPG1                               0x200E0
+HIDR_JPG2                               0x200E1
+HIDR_HISTORY                            0x200E2
+HIDR_FEATURES                           0x200E3
+HIDR_ABOUT                              0x200E4
+HIDR_HELP                               0x200EF
+HIDR_CONTEXT                            0x200F2
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_HOME                               0x20085
+HIDD_FEATURES                           0x20087
+HIDD_ADD_DISPLAY                        0x20088
+HIDD_ADD_LOCATION                       0x2008A
+HIDD_Preferences                        0x2008E
+HIDD_DETAILS                            0x200D9
+HIDD_DELETE                             0x200DA
+HIDD_MODIFY                             0x200DB
+HIDD_ALARM                              0x200DC
+HIDD_REGISTER                           0x200DD
+ 
+// Frame Controls (IDW_*) 

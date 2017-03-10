@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WorldTime2000 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\WIN98\TEMP\RSP2225.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/WorldTime2000.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp"
+]
+Creating command line "cl.exe @D:\WIN98\TEMP\RSP2225.TMP" 
+Creating temporary file "D:\WIN98\TEMP\RSP2226.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/WorldTime2000.pdb" /debug /machine:I386 /out:"Debug/WorldTime2000.exe" /pdbtype:sept 
+".\Debug\about.obj"
+".\Debug\Add.obj"
+".\Debug\AddDisplay.obj"
+".\Debug\Alarm.obj"
+".\Debug\Bitmap.obj"
+".\Debug\Bstream.obj"
+".\Debug\Crc32.obj"
+".\Debug\delete.obj"
+".\Debug\Features.obj"
+".\Debug\help.obj"
+".\Debug\Home.obj"
+".\Debug\List.obj"
+".\Debug\location.obj"
+".\Debug\MainFrm.obj"
+".\Debug\modify.obj"
+".\Debug\order.obj"
+".\Debug\Preferences.obj"
+".\Debug\Register.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Str.obj"
+".\Debug\WorldTime2000.obj"
+".\Debug\WorldTime2000View.obj"
+".\Debug\WorldTime2000.res"
+]
+Creating command line "link.exe @D:\WIN98\TEMP\RSP2226.TMP"
+<h3>Output Window</h3>
+Compiling...
+WorldTime2000.cpp
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(344) : warning C4018: '!=' : signed/unsigned mismatch
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(344) : warning C4018: '!=' : signed/unsigned mismatch
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(349) : warning C4244: '=' : conversion from 'unsigned long' to 'short', possible loss of data
+D:\My Documents\Projects\WorldTime2000\WorldTime2000.cpp(350) : warning C4244: '=' : conversion from 'unsigned long' to 'short', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+WorldTime2000.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

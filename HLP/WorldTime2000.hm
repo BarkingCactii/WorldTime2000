@@ -1,0 +1,94 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_DETAILS                             0x10003
+HID_FILE_HOME                           0x18003
+HID_FILE_ADD                            0x18005
+HID_HELP_FUTURE                         0x18007
+HID_FILE_ADDTODISPLAY                   0x18008
+HID_FILE_PREFERENCES                    0x1800A
+HID_FILE_DELETE                         0x1800C
+HID_FILE_MODIFY                         0x1800D
+HID_BUTTON32782                         0x1800E
+HID_HELP_CONTENTS                       0x18010
+HID_SHOW_TOOLBAR                        0x18011
+HID_SHOW_STATUS_BAR                     0x18012
+HID_FILE_ALARM                          0x18018
+HID_FILE_ALARMRESET                     0x18019
+HID_CONTEXT_DELETE                      0x1801A
+HID_CONTEXT_MODIFY                      0x1801B
+HID_REGISTER                            0x1801C
+HID_FILE_FONT                           0x1801D
+HID_ORDER                               0x1801E
+HID_CONTEXT_MOVE                        0x1801F
+HID_TIMESYNC                            0x18022
+HID_TRAY_OPEN                           0x18023
+HID_APP_OPEN                            0x18023
+HID_SORT_NAME                           0x18028
+HID_SORT_COUNTRY                        0x18029
+HID_SORT_TIME                           0x1802A
+HID_VIEW_GMT                            0x1802B
+HID_HELP_LEGEND                         0x1802C
+HID_CONTEXT_WHATIF                      0x1802D
+HID_VIEW_WHATIFMODE                     0x1802E
+HID_VIEW_WHATIF                         0x1802F
+HID_FILE_LOADSKIN                       0x18030
+HID_FILE_REMOVESKIN                     0x18031
+HID_CONTEXT_FONT                        0x18032
+HID_FILE_ALARMS                         0x18033
+HID_FILE_LOCAIONS                       0x18034
+HID_FILE_LOCATIONS                      0x18035
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_WORLDTTYPE                         0x20081
+HIDR_HTML1                              0x200DF
+HIDR_JPG1                               0x200E0
+HIDR_JPG2                               0x200E1
+HIDR_HISTORY                            0x200E2
+HIDR_FEATURES                           0x200E3
+HIDR_ABOUT                              0x200E4
+HIDR_HELP                               0x200EF
+HIDR_CONTEXT                            0x200F2
+HIDR_PREFERENCES                        0x200F3
+HIDR_DOCUMENTATION                      0x200F4
+HIDR_ORDER                              0x200F5
+HIDR_SYSTEMTRAY                         0x200F5
+HIDR_FRAME                              0x2010E
+HIDR_CONTENTS                           0x2010F
+HIDR_MAINFRAME1                         0x20119
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_SKINDIALOG_DIALOG                  0x20066
+HIDD_HOME                               0x20085
+HIDD_FEATURES                           0x20087
+HIDD_ADD_DISPLAY                        0x20088
+HIDD_ADD_LOCATION                       0x2008A
+HIDD_PREFERENCES                        0x2008E
+HIDD_ALARM_MESSAGE                      0x20095
+HIDD_DETAILS                            0x200D9
+HIDD_DELETE                             0x200DA
+HIDD_MODIFY2                            0x200DB
+HIDD_ALARM                              0x200DC
+HIDD_REGISTER                           0x200DD
+HIDD_ADD_DISPLAY1                       0x200DE
+HIDD_ADD_MODIFY                         0x200DE
+HIDD_MODIFY                             0x200DE
+HIDD_LEGEND                             0x200DF
+HIDD_WHATIF                             0x200E0
+HIDD_PREFERENCES1                       0x200E1
+HIDD_LOCATIONS                          0x200E5
+HIDD_MEMBERS                            0x200E6
+HIDD_MEMBER_ADD                         0x200E7
+HIDD_LOCATION_DETAILS                   0x200E9
+HIDD_PREFERENCES_SOUNDS                 0x200EA
+HIDD_PREFERENCES_TEMPLATE               0x200EB
+HIDD_PREFERENCES_TIME                   0x200ED
+HIDD_PREFERENCES_DISPLAY                0x200EE
+HIDD_ALARMS                             0x200F3
+HIDD_UPDATER                            0x200F4
+HIDD_ALARMold                           0x2011A
+ 
+// Frame Controls (IDW_*) 

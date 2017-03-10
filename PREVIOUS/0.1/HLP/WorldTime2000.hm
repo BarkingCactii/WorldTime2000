@@ -1,0 +1,21 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_FILE_HOME                           0x18003
+HID_FILE_ADD                            0x18005
+HID_HELP_FUTURE                         0x18007
+HID_FILE_ADDTODISPLAY                   0x18008
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_WORLDTTYPE                         0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_HOME                               0x20085
+HIDD_ADD                                0x20086
+HIDD_FEATURES                           0x20087
+HIDD_ADD_DISPLAY                        0x20088
+ 
+// Frame Controls (IDW_*) 

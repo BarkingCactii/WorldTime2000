@@ -1,0 +1,911 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\WorldTime2000.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  32, 32
+BEGIN
+    BUTTON      ID_FILE_HOME
+    SEPARATOR
+    BUTTON      ID_FILE_ADDTODISPLAY
+    BUTTON      ID_FILE_ADD
+    BUTTON      ID_FILE_MODIFY
+    BUTTON      ID_FILE_DELETE
+    SEPARATOR
+    BUTTON      ID_FILE_ALARMRESET
+    BUTTON      ID_FILE_PREFERENCES
+    BUTTON      ID_FILE_FONT
+    SEPARATOR
+    BUTTON      ID_HELP_FUTURE
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "Home\tH",                     ID_FILE_HOME
+        MENUITEM SEPARATOR
+        MENUITEM "Add Location to Display\tD",  ID_FILE_ADDTODISPLAY
+        MENUITEM "Add Location to List\tA",     ID_FILE_ADD
+        MENUITEM "Modify Location\tM",          ID_FILE_MODIFY
+        MENUITEM "Delete Location\tCtrl-D",     ID_FILE_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Reset Alarm\tSpace",          ID_FILE_ALARMRESET
+        MENUITEM "Preferences\tP",              ID_FILE_PREFERENCES
+        MENUITEM "Set Font\tF",                 ID_FILE_FONT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tX",                    ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_SHOW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_SHOW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Help\tF1",                    ID_HELP_CONTENTS
+        MENUITEM "Release Notes",               ID_HELP_FUTURE
+        MENUITEM SEPARATOR
+        MENUITEM "Syncronize with NIST Time Server", ID_TIMESYNC
+        MENUITEM "How to Order",                ID_ORDER
+        MENUITEM "Register",                    ID_REGISTER
+        MENUITEM SEPARATOR
+        MENUITEM "&About WorldTime2000...",     ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            ID_FILE_ADD,            VIRTKEY, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_FILE_ADDTODISPLAY,   VIRTKEY, NOINVERT
+    "D",            ID_FILE_DELETE,         VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_FILE_FONT,           VIRTKEY, NOINVERT
+    "H",            ID_FILE_HOME,           VIRTKEY, NOINVERT
+    "M",            ID_FILE_MODIFY,         VIRTKEY, NOINVERT
+    "P",            ID_FILE_PREFERENCES,    VIRTKEY, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP_CONTENTS,       VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_SPACE,       ID_FILE_ALARMRESET,     VIRTKEY, NOINVERT
+    "X",            ID_APP_EXIT,            VIRTKEY, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "WorldTime2000 MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "WorldTime2000\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "WorldTime2000.EXE\0"
+            VALUE "ProductName", "WorldTime2000 Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "WorldTime2000"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "WorldTime2000"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_HOME            "Set Home / Reference\nSet Home / Reference"
+    ID_FILE_ADD             "Add Location\nAdd to Locations List"
+    ID_HELP_FUTURE          "Release Notes\nRelease Notes"
+    ID_FILE_ADDTODISPLAY    "Add to display\nAdd Location to display"
+    ID_FILE_PREFERENCES     "Preferences\nPreferences"
+    ID_FILE_DELETE          "Delete\nDelete from Location List"
+    ID_FILE_MODIFY          "Modify\nModify Location List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HELP_CONTENTS        "Help\nHelp"
+    ID_SHOW_TOOLBAR         "Hides of shows the Toolbar\nHide or shows the toolbar"
+    ID_SHOW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+    ID_FILE_ALARMRESET      "Turn off the alarm\nTurn off the alarm"
+    ID_REGISTER             "Register WorldTime2000"
+    ID_FILE_FONT            "Set Font\nSet Font"
+    ID_ORDER                "How to order"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SUN                 ICON    DISCARDABLE     "res\\sun.ico"
+IDI_HOME                ICON    DISCARDABLE     "res\\home.ico"
+IDI_DSTON               ICON    DISCARDABLE     "res\\dston.ico"
+IDI_DSTOFF              ICON    DISCARDABLE     "res\\dstoff.ico"
+IDI_ALARM               ICON    DISCARDABLE     "res\\alarm.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\sphere\\frame1.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\sphere\\frame2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\sphere\\frame3.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\sphere\\frame4.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\sphere\\frame5.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\sphere\\frame6.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\sphere\\frame7.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\sphere\\frame8.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\sphere\\frame9.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\sphere\\frame10.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "res\\sphere\\frame11.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "res\\sphere\\frame12.bmp"
+IDB_FILE_ADD            BITMAP  DISCARDABLE     "res\\ani\\file_add.bmp"
+IDB_FILE_ADDTODISPLAY   BITMAP  DISCARDABLE     "res\\ani\\bmp00001.bmp"
+IDB_FILE_MODIFY         BITMAP  DISCARDABLE     "res\\ani\\bmp00002.bmp"
+IDB_FILE_DELETE         BITMAP  DISCARDABLE     "res\\ani\\file_mod.bmp"
+IDB_FILE_HOME           BITMAP  DISCARDABLE     "res\\ani\\bmp00003.bmp"
+IDB_APP_EXIT            BITMAP  DISCARDABLE     "res\\ani\\bmp00004.bmp"
+IDB_HELP_CONTENTS       BITMAP  DISCARDABLE     "res\\ani\\bmp00005.bmp"
+IDB_FILE_ALARMRESET     BITMAP  DISCARDABLE     "res\\sphere\\file_ala.bmp"
+IDB_SANDSTONE           BITMAP  DISCARDABLE     "res\\Sandstone.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_CONTEXT MENU DISCARDABLE 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Delete",                      ID_CONTEXT_DELETE
+        MENUITEM "Modify",                      ID_CONTEXT_MODIFY
+        MENUITEM "Set/Clear Alarm",             ID_FILE_ALARM
+        MENUITEM "Move",                        ID_CONTEXT_MOVE
+        MENUITEM SEPARATOR
+        MENUITEM "Alarm Reset",                 ID_FILE_ALARMRESET
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_HOME DIALOG DISCARDABLE  0, 0, 205, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Home"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,148,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,148,24,50,14
+    EDITTEXT        IDC_EDIT1,52,7,86,14,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC,7,7,33,14,SS_CENTERIMAGE
+END
+
+IDD_ADD_LOCATION DIALOGEX 0, 0, 241, 156
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Location"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,184,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,184,24,50,14
+    LTEXT           "Name/Town",IDC_STATIC,7,7,43,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,60,7,114,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_TOP | 
+                    WS_TABSTOP,14,38,153,21,WS_EX_TRANSPARENT
+    GROUPBOX        "Offset in hours from GMT",IDC_STATIC,7,26,168,45
+    CTEXT           "",IDC_ADD_HOURS,53,61,78,8,SS_CENTERIMAGE
+    GROUPBOX        "Daylight Savings",IDC_STATIC,7,76,227,73
+    ICON            IDI_SUN,IDC_STATIC,65,85,20,20,SS_REALSIZEIMAGE,
+                    WS_EX_TRANSPARENT
+    COMBOBOX        IDC_ADD_START_DAY,93,110,57,89,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_ADD_START_FIRSTLAST,47,111,40,56,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ADD_START_MONTH,156,110,72,158,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Starts",IDC_STATIC,13,110,28,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_ADD_END_DAY,93,128,57,88,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_ADD_END_FIRSTLAST,47,128,40,51,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ADD_END_MONTH,155,128,72,152,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Ends",IDC_STATIC,13,128,28,12,SS_CENTERIMAGE
+    LTEXT           "Time will be adjusted by 1 hour",IDC_STATIC,111,89,114,
+                    13,SS_CENTERIMAGE
+    CONTROL         "Enable",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,13,89,43,14
+END
+
+IDD_ADD_DISPLAY DIALOG DISCARDABLE  0, 0, 241, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add to Display"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,184,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,184,24,50,14
+    LISTBOX         IDC_ADD_DISPLAY_LIST,7,7,172,134,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Show Details",ID_DETAILS,183,77,50,14
+END
+
+IDD_Preferences DIALOG DISCARDABLE  0, 0, 181, 246
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Preferences"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,124,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,124,24,50,14
+    CONTROL         "Display in 24 hour time",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,111,12
+    CONTROL         "Show on screen",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,200,75,12
+    PUSHBUTTON      "Home",IDC_HOME_COLOR,18,68,63,16
+    CTEXT           "Sample Text",IDC_HOME_SAMPLE,89,69,77,16,SS_CENTERIMAGE
+    PUSHBUTTON      "Location",IDC_LOCATION_COLOR,18,86,64,16
+    PUSHBUTTON      "Selected",IDC_SELECTED_COLOR,18,105,64,16
+    CTEXT           "Sample Text",IDC_SELECTED_SAMPLE,89,105,77,16,
+                    SS_CENTERIMAGE
+    CTEXT           "Sample Text",IDC_LOCATION_SAMPLE,89,87,77,16,
+                    SS_CENTERIMAGE
+    GROUPBOX        "Colors",IDC_STATIC,7,58,167,87
+    PUSHBUTTON      "Background",IDC_BACKGROUND_COLOR,18,123,64,16
+    CTEXT           "Sample Text",IDC_BACKGROUND_SAMPLE,90,123,77,16,
+                    SS_CENTERIMAGE
+    GROUPBOX        "Wallpapers",IDC_STATIC,7,149,167,39
+    CONTROL         "Show on screen",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    BS_VCENTER | WS_TABSTOP,96,165,78,11
+    PUSHBUTTON      "Load Wallpaper",IDC_BACKGROUND_TEXTURE,17,162,64,16
+    GROUPBOX        "Rotating Earth",IDC_STATIC,7,191,167,44
+    CONTROL         "Moving ?",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,16,200,72,12
+    EDITTEXT        IDC_EDIT1,97,216,28,12,ES_AUTOHSCROLL
+    LTEXT           "Number of Frames",IDC_STATIC,15,216,72,12,
+                    SS_CENTERIMAGE
+    PUSHBUTTON      "Alarm",IDC_SOUNDALARM,11,32,33,16
+    PUSHBUTTON      "Hour",IDC_SOUNDHOUR,47,32,33,16
+    PUSHBUTTON      "Quarter",IDC_SOUNDQUARTER,83,32,33,16
+    GROUPBOX        "Sounds",IDC_STATIC,7,21,113,35
+END
+
+IDD_DELETE DIALOG DISCARDABLE  0, 0, 242, 149
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Delete Location"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Delete",IDOK,185,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,185,24,50,14
+    LISTBOX         IDC_ADD_DISPLAY_LIST,7,7,172,135,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Show Details",ID_DETAILS,183,73,50,14
+END
+
+IDD_MODIFY DIALOGEX 0, 0, 241, 196
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify Location"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Modify",IDOK,184,7,50,14
+    PUSHBUTTON      "Close",IDCANCEL,184,24,50,14
+    LTEXT           "Name/Town",IDC_STATIC,7,54,43,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT1,60,54,114,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_TOP | 
+                    WS_TABSTOP,14,85,153,21,WS_EX_TRANSPARENT
+    GROUPBOX        "Offset in hours from GMT",IDC_STATIC,7,71,168,45
+    CTEXT           "",IDC_ADD_HOURS,53,106,78,8,SS_CENTERIMAGE
+    GROUPBOX        "Daylight Savings",IDC_STATIC,7,116,227,73
+    ICON            IDI_SUN,IDC_STATIC,65,132,20,20,SS_REALSIZEIMAGE,
+                    WS_EX_TRANSPARENT
+    COMBOBOX        IDC_ADD_START_DAY,93,157,57,89,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_ADD_START_FIRSTLAST,47,158,40,73,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ADD_START_MONTH,156,157,72,158,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Starts",IDC_STATIC,13,157,28,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_ADD_END_DAY,93,175,57,88,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_ADD_END_FIRSTLAST,47,175,40,64,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_ADD_END_MONTH,155,175,72,152,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Ends",IDC_STATIC,13,175,28,12,SS_CENTERIMAGE
+    LTEXT           "Time will be adjusted by 1 hour",IDC_STATIC,111,136,114,
+                    13,SS_CENTERIMAGE
+    CONTROL         "Enable",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,13,136,43,14
+    LISTBOX         IDC_MODIFY_LIST,7,7,165,41,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ALARM DIALOG DISCARDABLE  0, 0, 202, 68
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Alarm"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,145,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,145,24,50,14
+    LTEXT           "Text",IDC_LOCATION,7,7,117,12,SS_CENTERIMAGE
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_SHOWNONE | WS_TABSTOP | 
+                    0x8,7,21,82,17
+    EDITTEXT        IDC_EDIT1,57,42,138,13,ES_AUTOHSCROLL
+    LTEXT           "Message",IDC_STATIC,7,41,39,13,SS_CENTERIMAGE
+    COMBOBOX        IDC_AMPM,93,21,33,56,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_REGISTER DIALOG DISCARDABLE  0, 0, 176, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Register WorldTime2000"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Register",IDOK,24,50,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,101,50,50,14
+    EDITTEXT        IDC_REGISTER_NAME,52,7,115,14,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC,7,7,33,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_REGISTER_KEY,52,25,66,14,ES_AUTOHSCROLL
+    LTEXT           "Key",IDC_STATIC,8,25,33,14,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_HOME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_ADD_LOCATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_ADD_DISPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_Preferences, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_DELETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+
+    IDD_MODIFY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_ALARM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\WorldTime2000.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ADD_LOCATION DLGINIT
+BEGIN
+    IDC_ADD_START_DAY, 0x403, 7, 0
+0x7553, 0x646e, 0x7961, "\000" 
+    IDC_ADD_START_DAY, 0x403, 7, 0
+0x6f4d, 0x646e, 0x7961, "\000" 
+    IDC_ADD_START_DAY, 0x403, 8, 0
+0x7554, 0x7365, 0x6164, 0x0079, 
+    IDC_ADD_START_DAY, 0x403, 10, 0
+0x6557, 0x6e64, 0x7365, 0x6164, 0x0079, 
+    IDC_ADD_START_DAY, 0x403, 9, 0
+0x6854, 0x7275, 0x6473, 0x7961, "\000" 
+    IDC_ADD_START_DAY, 0x403, 7, 0
+0x7246, 0x6469, 0x7961, "\000" 
+    IDC_ADD_START_DAY, 0x403, 9, 0
+0x6153, 0x7574, 0x6472, 0x7961, "\000" 
+    IDC_ADD_START_FIRSTLAST, 0x403, 6, 0
+0x6946, 0x7372, 0x0074, 
+    IDC_ADD_START_FIRSTLAST, 0x403, 7, 0
+0x6553, 0x6f63, 0x646e, "\000" 
+    IDC_ADD_START_FIRSTLAST, 0x403, 6, 0
+0x6854, 0x7269, 0x0064, 
+    IDC_ADD_START_FIRSTLAST, 0x403, 5, 0
+0x614c, 0x7473, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 8, 0
+0x614a, 0x756e, 0x7261, 0x0079, 
+    IDC_ADD_START_MONTH, 0x403, 9, 0
+0x6546, 0x7262, 0x6175, 0x7972, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 6, 0
+0x614d, 0x6372, 0x0068, 
+    IDC_ADD_START_MONTH, 0x403, 6, 0
+0x7041, 0x6972, 0x006c, 
+    IDC_ADD_START_MONTH, 0x403, 4, 0
+0x614d, 0x0079, 
+    IDC_ADD_START_MONTH, 0x403, 5, 0
+0x754a, 0x656e, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 5, 0
+0x754a, 0x796c, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 7, 0
+0x7541, 0x7567, 0x7473, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 10, 0
+0x6553, 0x7470, 0x6d65, 0x6562, 0x0072, 
+    IDC_ADD_START_MONTH, 0x403, 8, 0
+0x634f, 0x6f74, 0x6562, 0x0072, 
+    IDC_ADD_START_MONTH, 0x403, 9, 0
+0x6f4e, 0x6576, 0x626d, 0x7265, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 9, 0
+0x6544, 0x6563, 0x626d, 0x7265, "\000" 
+    IDC_ADD_END_DAY, 0x403, 7, 0
+0x7553, 0x646e, 0x7961, "\000" 
+    IDC_ADD_END_DAY, 0x403, 7, 0
+0x6f4d, 0x646e, 0x7961, "\000" 
+    IDC_ADD_END_DAY, 0x403, 8, 0
+0x7554, 0x7365, 0x6164, 0x0079, 
+    IDC_ADD_END_DAY, 0x403, 10, 0
+0x6557, 0x6e64, 0x7365, 0x6164, 0x0079, 
+    IDC_ADD_END_DAY, 0x403, 9, 0
+0x6854, 0x7275, 0x6473, 0x7961, "\000" 
+    IDC_ADD_END_DAY, 0x403, 7, 0
+0x7246, 0x6469, 0x7961, "\000" 
+    IDC_ADD_END_DAY, 0x403, 9, 0
+0x6153, 0x7574, 0x6472, 0x7961, "\000" 
+    IDC_ADD_END_FIRSTLAST, 0x403, 6, 0
+0x6946, 0x7372, 0x0074, 
+    IDC_ADD_END_FIRSTLAST, 0x403, 7, 0
+0x6553, 0x6f63, 0x646e, "\000" 
+    IDC_ADD_END_FIRSTLAST, 0x403, 6, 0
+0x6854, 0x7269, 0x0064, 
+    IDC_ADD_END_FIRSTLAST, 0x403, 5, 0
+0x614c, 0x7473, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 8, 0
+0x614a, 0x756e, 0x7261, 0x0079, 
+    IDC_ADD_END_MONTH, 0x403, 9, 0
+0x6546, 0x7262, 0x6175, 0x7972, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 6, 0
+0x614d, 0x6372, 0x0068, 
+    IDC_ADD_END_MONTH, 0x403, 6, 0
+0x7041, 0x6972, 0x006c, 
+    IDC_ADD_END_MONTH, 0x403, 4, 0
+0x614d, 0x0079, 
+    IDC_ADD_END_MONTH, 0x403, 5, 0
+0x754a, 0x656e, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 5, 0
+0x754a, 0x796c, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 7, 0
+0x7541, 0x7567, 0x7473, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 10, 0
+0x6553, 0x7470, 0x6d65, 0x6562, 0x0072, 
+    IDC_ADD_END_MONTH, 0x403, 8, 0
+0x634f, 0x6f74, 0x6562, 0x0072, 
+    IDC_ADD_END_MONTH, 0x403, 9, 0
+0x6f4e, 0x6576, 0x626d, 0x7265, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 9, 0
+0x6544, 0x6563, 0x626d, 0x7265, "\000" 
+    0
+END
+
+IDD_MODIFY DLGINIT
+BEGIN
+    IDC_ADD_START_DAY, 0x403, 7, 0
+0x7553, 0x646e, 0x7961, "\000" 
+    IDC_ADD_START_DAY, 0x403, 7, 0
+0x6f4d, 0x646e, 0x7961, "\000" 
+    IDC_ADD_START_DAY, 0x403, 8, 0
+0x7554, 0x7365, 0x6164, 0x0079, 
+    IDC_ADD_START_DAY, 0x403, 10, 0
+0x6557, 0x6e64, 0x7365, 0x6164, 0x0079, 
+    IDC_ADD_START_DAY, 0x403, 9, 0
+0x6854, 0x7275, 0x6473, 0x7961, "\000" 
+    IDC_ADD_START_DAY, 0x403, 7, 0
+0x7246, 0x6469, 0x7961, "\000" 
+    IDC_ADD_START_DAY, 0x403, 9, 0
+0x6153, 0x7574, 0x6472, 0x7961, "\000" 
+    IDC_ADD_START_FIRSTLAST, 0x403, 6, 0
+0x6946, 0x7372, 0x0074, 
+    IDC_ADD_START_FIRSTLAST, 0x403, 7, 0
+0x6553, 0x6f63, 0x646e, "\000" 
+    IDC_ADD_START_FIRSTLAST, 0x403, 6, 0
+0x6854, 0x7269, 0x0064, 
+    IDC_ADD_START_FIRSTLAST, 0x403, 7, 0
+0x6f46, 0x7275, 0x6874, "\000" 
+    IDC_ADD_START_FIRSTLAST, 0x403, 5, 0
+0x614c, 0x7473, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 8, 0
+0x614a, 0x756e, 0x7261, 0x0079, 
+    IDC_ADD_START_MONTH, 0x403, 9, 0
+0x6546, 0x7262, 0x6175, 0x7972, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 6, 0
+0x614d, 0x6372, 0x0068, 
+    IDC_ADD_START_MONTH, 0x403, 6, 0
+0x7041, 0x6972, 0x006c, 
+    IDC_ADD_START_MONTH, 0x403, 4, 0
+0x614d, 0x0079, 
+    IDC_ADD_START_MONTH, 0x403, 5, 0
+0x754a, 0x656e, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 5, 0
+0x754a, 0x796c, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 7, 0
+0x7541, 0x7567, 0x7473, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 10, 0
+0x6553, 0x7470, 0x6d65, 0x6562, 0x0072, 
+    IDC_ADD_START_MONTH, 0x403, 8, 0
+0x634f, 0x6f74, 0x6562, 0x0072, 
+    IDC_ADD_START_MONTH, 0x403, 9, 0
+0x6f4e, 0x6576, 0x626d, 0x7265, "\000" 
+    IDC_ADD_START_MONTH, 0x403, 9, 0
+0x6544, 0x6563, 0x626d, 0x7265, "\000" 
+    IDC_ADD_END_DAY, 0x403, 7, 0
+0x7553, 0x646e, 0x7961, "\000" 
+    IDC_ADD_END_DAY, 0x403, 7, 0
+0x6f4d, 0x646e, 0x7961, "\000" 
+    IDC_ADD_END_DAY, 0x403, 8, 0
+0x7554, 0x7365, 0x6164, 0x0079, 
+    IDC_ADD_END_DAY, 0x403, 10, 0
+0x6557, 0x6e64, 0x7365, 0x6164, 0x0079, 
+    IDC_ADD_END_DAY, 0x403, 9, 0
+0x6854, 0x7275, 0x6473, 0x7961, "\000" 
+    IDC_ADD_END_DAY, 0x403, 7, 0
+0x7246, 0x6469, 0x7961, "\000" 
+    IDC_ADD_END_DAY, 0x403, 9, 0
+0x6153, 0x7574, 0x6472, 0x7961, "\000" 
+    IDC_ADD_END_FIRSTLAST, 0x403, 6, 0
+0x6946, 0x7372, 0x0074, 
+    IDC_ADD_END_FIRSTLAST, 0x403, 7, 0
+0x6553, 0x6f63, 0x646e, "\000" 
+    IDC_ADD_END_FIRSTLAST, 0x403, 6, 0
+0x6854, 0x7269, 0x0064, 
+    IDC_ADD_END_FIRSTLAST, 0x403, 7, 0
+0x6f46, 0x7275, 0x6874, "\000" 
+    IDC_ADD_END_FIRSTLAST, 0x403, 5, 0
+0x614c, 0x7473, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 8, 0
+0x614a, 0x756e, 0x7261, 0x0079, 
+    IDC_ADD_END_MONTH, 0x403, 9, 0
+0x6546, 0x7262, 0x6175, 0x7972, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 6, 0
+0x614d, 0x6372, 0x0068, 
+    IDC_ADD_END_MONTH, 0x403, 6, 0
+0x7041, 0x6972, 0x006c, 
+    IDC_ADD_END_MONTH, 0x403, 4, 0
+0x614d, 0x0079, 
+    IDC_ADD_END_MONTH, 0x403, 5, 0
+0x754a, 0x656e, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 5, 0
+0x754a, 0x796c, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 7, 0
+0x7541, 0x7567, 0x7473, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 10, 0
+0x6553, 0x7470, 0x6d65, 0x6562, 0x0072, 
+    IDC_ADD_END_MONTH, 0x403, 8, 0
+0x634f, 0x6f74, 0x6562, 0x0072, 
+    IDC_ADD_END_MONTH, 0x403, 9, 0
+0x6f4e, 0x6576, 0x626d, 0x7265, "\000" 
+    IDC_ADD_END_MONTH, 0x403, 9, 0
+0x6544, 0x6563, 0x626d, 0x7265, "\000" 
+    0
+END
+
+IDD_ALARM DLGINIT
+BEGIN
+    IDC_AMPM, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_AMPM, 0x403, 3, 0
+0x4d50, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HISTORY             HTML    DISCARDABLE     "history.htm"
+IDR_FEATURES            HTML    DISCARDABLE     "features.htm"
+IDR_ABOUT               HTML    DISCARDABLE     "about.htm"
+IDR_HELP                HTML    DISCARDABLE     "help.htm"
+HELP.GIF                HTML    DISCARDABLE     "help.gif"
+IDR_ORDER               HTML    DISCARDABLE     "order.htm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CONTEXT_MOVE         "Move location"
+END
+
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\WorldTime2000.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

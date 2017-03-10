@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WorldTime2000 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\WIN98\TEMP\RSP1134.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/WorldTime2000.pdb" /machine:I386 /out:"Release/WorldTime2000.exe" 
+".\Release\about.obj"
+".\Release\Add.obj"
+".\Release\AddDisplay.obj"
+".\Release\Bstream.obj"
+".\Release\delete.obj"
+".\Release\Features.obj"
+".\Release\help.obj"
+".\Release\Home.obj"
+".\Release\List.obj"
+".\Release\location.obj"
+".\Release\MainFrm.obj"
+".\Release\modify.obj"
+".\Release\Preferences.obj"
+".\Release\StdAfx.obj"
+".\Release\Str.obj"
+".\Release\WorldTime2000.obj"
+".\Release\WorldTime2000View.obj"
+".\Release\WorldTime2000.res"
+]
+Creating command line "link.exe @D:\WIN98\TEMP\RSP1134.TMP"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+WorldTime2000.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,72 @@
+[Exit]
+VersionString=Version 1.5.3 (Build 201)
+User=Jeff Hill
+
+[Settings]
+PromptShow=1
+LNGFile=English
+PasswordShow=0
+ProgressShow=1
+PromptText=Install WorldTime2000 2.01 now?
+Password=
+PasswordText=Please enter the password:
+FolderSelText=Please select a folder to install WorldTime2000 into
+ProgressText=Please wait while setup is installing...
+Quiet=0
+ShowFileWindow=1
+LinkCreate=1
+LinkStartMenu=1
+LinkDesktop=1
+LinkFileName=WorldTime2000.exe
+LinkDisplay=WorldTime2000
+RunWaitFor=_ISDEL.EXE
+ShowLicense=1
+LicenseHead=Please read the following License Agreement. Agree with YES or cancel Setup with NO.
+LicenseText1=LICENSE AGREEMENTÿÿPCM Computer Systems Pty Ltd shall license this software titled "WorldTime2000" to you only on the condition that you accept all of the terms contained in this License Agreement (the "License").  Please read this License carefully. By accepting this license, you agree to be bound by the terms of this License.ÿÿOWNERSHIPÿThis is a license, not a sale, and as such, you do not own title to the software.ÿÿLICENSE TO REGISTERED LICENSEESÿIn consideration of payment of the registation fee, PCM Computer Systems Pty Ltd grants to you a non-exclusive license to use THIS copy of the software for an indefinate period.ÿÿEVALUATION PERIODÿPrior to registration, WorldTime2000 shall be available to use for evaluation for a period of 1 month. After that period, this license terminates. At any time, the licensee may register the program to re-establish this license, and become a registered licensee, ÿÿDISTRIBUTIONÿWorldTime2000 may be freely distributable over the internet, and on media archives ( CD Roms e
+
+LicenseText2=eeeeeetc ), provided that only the ORIGINAL archives available from PCM Computer Systems Pty Ltd website are used.ÿÿCOPYRIGHT RESTRICTIONSÿThis program is copyrighted. Copying or modification of the Work is prohibited unless specifically authorized in this License.ÿÿRESTRICTIONS ON USEÿYou may not give your key to other persons, and in doing so, void your right to this license. You may run this software on one computer at a time.ÿÿTERMINATIONÿThis License will automatically terminate if you fail to comply with any of its terms.ÿÿUPDATESÿUpdated versions may be issued by PCM Computer Systems Pty Ltd from time to time. Updates shall be freely available to registered owners for a period of 1 year from registration.ÿÿLIMITATION OF LIABILITYÿIN NO EVENT SHALL PCM COMPUTER SYSTEMS PTY LTD BE LIABLE TO YOU OR ANY OTHER PERSON  FOR LOSS OF BUSINESS OR PROFITS, OR FOR ANY INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF, OR INABILITY TO USE THE PROGRAM.ÿÿÿÿÿÿÿÿÿÿÿ
+
+Cancel=&Cancel
+Continue=&Continue
+Yes=&Yes
+No=&No
+Caption=WorldTime2000 Setup
+RunTextFile=0
+RunTextFileName=SETUP.EXE
+ShowFinalMsg=1
+FinalMsg=The files have been installed successfully.
+RunProgram=0
+ExtractOnly=1
+RunProgExeName=
+RunProgExePara=/SMS
+ExtractOnlyPath=%p\WorldTime2000
+ExtractOnlyNoDlg=0
+Output=d:\wt2k-201.exe
+
+[Uninstall]
+Enable=1
+Appname=WorldTime2000
+Logfile=uninstall.uni
+
+[Files]
+NumFiles=9
+BaseDir=D:\My Installations\WorldTime2000\Media\Default\Disk Images\disk1\
+File1=D:\My Documents\Projects\WorldTime2000\Release\WorldTime2000.dat
+File1To=%a\WorldTime2000.dat
+File2=D:\My Documents\Projects\WorldTime2000\Release\WorldTime2000.exe
+File2To=%a\WorldTime2000.exe
+File3=D:\My Documents\Projects\WorldTime2000\Backgrounds\WorldTime2000.bmp
+File3To=%a\WorldTime2000.bmp
+File4=D:\My Documents\Projects\WorldTime2000\readme.txt
+File4To=%a\readme.txt
+File5=D:\My Documents\Projects\WorldTime2000\alarm.wav
+File5To=%a\alarm.wav
+File6=D:\My Documents\Projects\WorldTime2000\hour.wav
+File6To=%a\hour.wav
+File7=D:\My Documents\Projects\WorldTime2000\quarter.wav
+File7To=%a\quarter.wav
+File8=D:\My Documents\Projects\WorldTime2000\order.txt
+File8To=%a\order.txt
+File9=D:\My Documents\Projects\WorldTime2000\Release\worldtime2000.debug
+File9To=%a\worldtime2000.debug
+
